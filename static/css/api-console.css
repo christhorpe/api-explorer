@@ -57,6 +57,9 @@
 #results li {
     padding-left: 1em;
 }
+#console form {
+	margin-left: 1em;
+}
 #formats ul, #formats li {
 	margin: 0;
 	padding: 0;
@@ -66,6 +69,10 @@
 	margin: 0;
 	list-style-type: none;
 	border: 1px solid #666;
+	border-bottom: none;
+}
+#formats li.xml {
+	margin-left: 1em;
 }
 #formats {
 	border-bottom: 1px solid #666;
