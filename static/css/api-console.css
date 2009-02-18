@@ -1,0 +1,127 @@
+#console {
+	font-family: verdana, sans-serif;
+	font-size: 16px;
+}
+#console h2 {
+	font-size: 1.2em;
+}
+#console ol {
+	list-style-type: none;
+}
+#console ol.root {
+	margin: 0;
+	padding: 0;
+}
+#console span.t {
+	color: #999;
+}
+#console span.a {
+	color: #666;
+}
+#console span.key {
+	color: #999;
+}
+#console #input-url {
+	width: 60%;
+}
+#console .wrapper {
+	position: relative;
+}
+#console #results {
+	/* margin-right: 22em; */
+	margin-right: 24.4em;
+	overflow: auto;
+	padding-top: 1.12em;
+	border-right: 1px dotted #666;
+	font-family: courier;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+#console #results.loading {
+	border-right: none;
+	font-family: verdana, sans-serif;
+}
+#console #refinements {
+	width: 21em;
+	padding-left: 1em;
+	position: absolute;
+	top: 1em;
+	right: 0;
+}
+#refinements ul {
+	margin: 0;
+	padding: 0 0 0 1.5em;
+	font-size: 0.9em;
+}
+#results li {
+    padding-left: 1em;
+}
+#formats ul, #formats li {
+	margin: 0;
+	padding: 0;
+}
+#formats li {
+	display: inline;
+	margin: 0;
+	list-style-type: none;
+	border: 1px solid #666;
+}
+#formats {
+	border-bottom: 1px solid #666;
+	display: none;
+}
+#formats a {
+	padding: 0 2em;
+	text-decoration: none;
+	color: #666;
+}
+#formats li.raw {
+	border: none;
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+#formats li.raw a {
+	color: navy;
+	position: relative;
+	bottom: 0.2em;
+}
+#formats.xml .xml {
+	background-color: #666;
+}
+#formats.xml .xml a {
+	color: white;
+}
+#formats.json .json {
+	background-color: #666;
+}
+#formats.json .json a {
+	color: white;
+}
+
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	opacity: 0.85;
+	font-size: 0.7em;
+}
+#tooltip.tooltip-img {
+	opacity: 1.0;
+}
+#tooltip h3, #tooltip div { margin: 0; }
+
+
+#console div.api-key-needed {
+    text-align: center;
+}
+#console div.api-key-needed h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    padding-bottom: 0.4em;
+}
+#console div.api-key-needed input.text {
+    width: 20em;
+}
