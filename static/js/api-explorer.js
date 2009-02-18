@@ -21,7 +21,7 @@ gdn.consolePane.init = function() {
     });
     
     var console_height = initial_console_height;
-    var saved_console_height = console_height; // For dblclick restore
+    var saved_console_height = console_height; // So 'open' can restore it
     
     function sizeIt() {
         consoleDiv.height(console_height);
@@ -77,11 +77,12 @@ gdn.consolePane.init = function() {
     }).click(function() {
         var a = $(this);
         if (console_height > 0) {
+            saved_console_height = console_height;
             console_height = 0;
             sizeIt();
             a.html('(open)');
         } else {
-            console_height = initial_console_height;
+            console_height = saved_console_height;
             sizeIt();
             a.html('(close)');
         }
