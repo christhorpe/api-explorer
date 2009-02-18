@@ -7,6 +7,7 @@
 }
 #console ol {
 	list-style-type: none;
+	padding: 0;
 }
 #console ol.root {
 	margin: 0;
