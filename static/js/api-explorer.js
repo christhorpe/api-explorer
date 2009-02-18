@@ -12,7 +12,7 @@ gdn.consolePane.init = function() {
     ).hide().insertAfter('#main').find('div').load(
         '/explorer/_console.html', function() {
         // Set up event handlers
-        initApiExplorer(consoleDiv);
+        gdn.apiExplorer.init(consoleDiv);
         sizeIt();
     }).end().css({
         'position': 'relative',
@@ -88,61 +88,52 @@ gdn.consolePane.init = function() {
         }
         return false;
     });
-    
-    /*
-    // TODO: This should be triggered by an open/close icon instead
-    dragme.dblclick(function() {
-        if (console_height == 0) {
-            console_height = saved_console_height;
-        } else {
-            saved_console_height = console_height;
-            console_height = 0;
-        }
-        sizeIt();
-    });
-    */
 }
-
-function initApiExplorer(el) {
-	$.history.init(loadUrl); // The history plugin enables the back button
-	$('form', el).submit(function() {
-		$.history.load($('input[name=url]', el).val());
-		return false;
-	});
+gdn.apiExplorer = gdn.apiExplorer || {};
+(function() {
+	var el;
+	function init(initEl) {
+		el = initEl;
+		$.history.init(loadUrl); // The history plugin enables the back button
+		$('form', el).submit(function() {
+			$.history.load($('input[name=url]', el).val());
+			return false;
+		});
 	
-	// Set up show/hide toggle behaviour for API examples
-	$('<a href="#" class="hide"> [Hide]</a>').click(function() {
-		var a = $(this);
-		if (a.hasClass('hide')) {
-			a.removeClass('hide');
-			a.addClass('show');
-			a.text(' [Show]');
-			$('#examples').hide('fast');
-		} else {
-			a.removeClass('show');
-			a.addClass('hide');
-			a.text(' [Hide]');
-			$('#examples').show('fast');
-		}
-		return false;
-	}).css({
-		'font-size': '0.6em',
-		'text-decoration': 'none'
-	}).appendTo($('h2', el));
-	
+		// Set up show/hide toggle behaviour for API examples
+		$('<a href="#" class="hide"> [Hide]</a>').click(function() {
+			var a = $(this);
+			if (a.hasClass('hide')) {
+				a.removeClass('hide');
+				a.addClass('show');
+				a.text(' [Show]');
+				$('#examples').hide('fast');
+			} else {
+				a.removeClass('show');
+				a.addClass('hide');
+				a.text(' [Hide]');
+				$('#examples').show('fast');
+			}
+			return false;
+		}).css({
+			'font-size': '0.6em',
+			'text-decoration': 'none'
+		}).appendTo($('h2', el));
+		hookupLinks();
+	}
 	function loadUrl(url) {
 		if (!url) {
 			return; // loadUrl called with empty string when page first loads
 		}
 		$('#tooltip').hide();
-		
+	
 		$('input[name=url]', el).val(url);
 		$('#results').empty().append(
 			'<p id="results-loading">Loading...</p>'
 		).addClass('loading');
 		$('#filters').empty();
 		$('#formats').hide();
-		
+	
 		$.ajax({
 			url: url, 
 			success: function(domOrJson) {
@@ -169,7 +160,7 @@ function initApiExplorer(el) {
 				$('#formats .xml a').attr('href', formatUrl(url, 'xml'));
 				$('#formats .json a').attr('href', formatUrl(url, 'json'));
 				$('#formats .raw a').attr('href', url);
-				
+			
 				// Show any filters
 				if (is_xml) {
 					showFilters(extractXmlFilters(domOrJson));
@@ -186,7 +177,7 @@ function initApiExplorer(el) {
 			}
 		});
 	}
-	
+
 	function showFilters(filters) {
 		$('#filters').empty();
 		if (filters.length == 0) {
@@ -215,7 +206,7 @@ function initApiExplorer(el) {
 		}
 		return filters;
 	}
-	
+
 	function extractJsonFilters(json) {
 		window.lastJson = json;
 		var filters = [];
@@ -228,7 +219,7 @@ function initApiExplorer(el) {
 		});
 		return filters;
 	}
-	
+
 	function formatUrl(url, format) {
 		if (/format=\w+/.exec(url)) {
 			url = url.replace(/format=\w+/, 'format=' + format);
@@ -242,7 +233,7 @@ function initApiExplorer(el) {
 		}
 		return url;
 	}
-	
+
 	function hookupLinks() {
 		// Hook up links to the API to call Ajax instead
 		$('a[href*=/gdn-api/]').not(
@@ -256,7 +247,7 @@ function initApiExplorer(el) {
 		).not('.hastooltip').tooltip({
 			showURL: false
 		}).addClass('hastooltip');
-		
+	
 		// Links to images should show that image in the tooltip
 		$('a[href$=.jpg],a[href$=.gif],a[href$=.png]').not(
 			'.hastooltip'
@@ -268,5 +259,8 @@ function initApiExplorer(el) {
 			extraClass: 'tooltip-img'
 		}).addClass('hastooltip');
 	}
-	hookupLinks();
-}
+	
+	// Public methods:
+	gdn.apiExplorer.init = init;
+	gdn.apiExplorer.loadUrl = loadUrl;
+})();
