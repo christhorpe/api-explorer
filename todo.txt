@@ -1,2 +1,4 @@
 * Enter your API key to enable the API console
-* Clean up the view for console visible but has not yet loaded a response
+* Clean up view for when console is visible but has not yet loaded a response
+* A full-page version of the API explorer
+* a[href*=gdn-api] is currently used to upgrade links - fix for production
