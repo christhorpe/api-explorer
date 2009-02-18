@@ -1,28 +1,78 @@
 gdn = window.gdn || {};
 gdn.consolePane = gdn.consolePane || {};
-gdn.consolePane.init = function() {
-	var $ = jQuery;
-	
+(function($) {
 	var dragHeight = 25;
 	var initial_console_height = 300;
-	
-	// Insert the console
-	var consoleDiv = $(
-		'<div id="console"><div></div></div>'
-	).hide().insertAfter('#main').find('div').load(
-		'/explorer/_console.html', function() {
-		// Set up event handlers
-		gdn.apiExplorer.init(consoleDiv);
-		sizeIt();
-	}).end().css({
-		'position': 'relative',
-		'overflow': 'auto',
-		'background-color': '#eee'
-	});
-	
 	var console_height = initial_console_height;
 	var saved_console_height = console_height; // So 'open' can restore it
 	
+	var consoleDiv, dragme;
+	
+	function init() {
+		// Insert the console
+		consoleDiv = $(
+			'<div id="console"><div></div></div>'
+		).hide().insertAfter('#main').find('div').load(
+			'/explorer/_console.html', function() {
+			// Set up event handlers
+			gdn.apiExplorer.init(consoleDiv);
+			sizeIt();
+		}).end().css({
+			'position': 'relative',
+			'overflow': 'auto',
+			'background-color': '#eee'
+		});
+		dragme = $(
+			'<div class="dragbar"><p>API Console <a href="#">(close)</a></p></div>'
+		).insertBefore(consoleDiv).css({
+			'height': dragHeight + 'px',
+			'background-color': '#666',
+			'cursor': 'move',
+			'width': '100%',
+			'overflow': 'hidden'
+		}).draggable({
+			containment: 'window',
+			helper: 'clone',
+			opacity: 0.5,
+			appendTo: document.body,
+			axis: 'y',
+			stop: function(ev, ui) {
+				var top = Math.max(ui.absolutePosition.top, 0);
+				console_height = $(window).height() - top - dragHeight;
+				sizeIt();
+				dragme.css('top', 0);
+				var text = '(open)'
+				if (console_height > 0) {
+					text = '(close)';
+				}
+				$('.dragbar a').html(text);
+			}
+		}).find('p').css({
+			'margin': '0',
+			'padding': '0 0 0 1em',
+			'color': '#fff',
+			'line-height': '24px',
+			'border-top': '1px solid black'
+		}).find('a').css({
+			'color': 'white',
+			'font-size': '0.9em'
+		}).click(function() {
+			var a = $(this);
+			if (console_height > 0) {
+				saved_console_height = console_height;
+				console_height = 0;
+				sizeIt();
+				a.html('(open)');
+			} else {
+				console_height = saved_console_height;
+				sizeIt();
+				a.html('(close)');
+			}
+			return false;
+		});
+		
+		$(window).resize(sizeIt);
+	}
 	function sizeIt() {
 		consoleDiv.height(console_height);
 		$('#main').height($(window).height()-console_height-dragHeight).css(
@@ -38,59 +88,20 @@ gdn.consolePane.init = function() {
 			);
 		}
 	}
-	$(window).resize(sizeIt);
+	function ensureOpen() {
+		if (console_height < 100) {
+			console_height = initial_console_height;
+			sizeIt();
+			$('.dragbar a').html('(close)');
+		}
+	}
 	
-	var dragme = $(
-		'<div class="dragbar"><p>API Console <a href="#">(close)</a></p></div>'
-	).insertBefore(consoleDiv).css({
-		'height': dragHeight + 'px',
-		'background-color': '#666',
-		'cursor': 'move',
-		'width': '100%',
-		'overflow': 'hidden'
-	}).draggable({
-		containment: 'window',
-		helper: 'clone',
-		opacity: 0.5,
-		appendTo: document.body,
-		axis: 'y',
-		stop: function(ev, ui) {
-			var top = Math.max(ui.absolutePosition.top, 0);
-			console_height = $(window).height() - top - dragHeight;
-			sizeIt();
-			dragme.css('top', 0);
-			var text = '(open)'
-			if (console_height > 0) {
-				text = '(close)';
-			}
-			$('.dragbar a').html(text);
-		}
-	}).find('p').css({
-		'margin': '0',
-		'padding': '0 0 0 1em',
-		'color': '#fff',
-		'line-height': '24px',
-		'border-top': '1px solid black'
-	}).find('a').css({
-		'color': 'white',
-		'font-size': '0.9em'
-	}).click(function() {
-		var a = $(this);
-		if (console_height > 0) {
-			saved_console_height = console_height;
-			console_height = 0;
-			sizeIt();
-			a.html('(open)');
-		} else {
-			console_height = saved_console_height;
-			sizeIt();
-			a.html('(close)');
-		}
-		return false;
-	});
-}
+	gdn.consolePane.init = init;
+	gdn.consolePane.ensureOpen = ensureOpen;
+})(jQuery)
+
 gdn.apiExplorer = gdn.apiExplorer || {};
-(function() {
+(function($) {
 	var el;
 	function init(initEl) {
 		el = initEl;
@@ -262,5 +273,13 @@ gdn.apiExplorer = gdn.apiExplorer || {};
 	
 	// Public methods:
 	gdn.apiExplorer.init = init;
-	gdn.apiExplorer.loadUrl = loadUrl;
-})();
+	gdn.apiExplorer.load = function(url) {
+		$.history.load(url);
+	}
+})(jQuery);
+
+gdn.apiExplorer.show = function(url) {
+	// Opens the consolePane if not already open, then loads that URL
+	gdn.consolePane.ensureOpen();
+	gdn.apiExplorer.load(url);
+}
