@@ -16,6 +16,12 @@
 	<script src="js/explorer.js" type="text/javascript"></script>
 	<script type="text/javascript">
 	jQuery(gdn.consolePane.init);
+	jQuery(function($) {
+		$('a.example').click(function() {
+			gdn.apiExplorer.show(this.url);
+			return false;
+		})
+	});
 	</script>
 </head>
 <body onload="init()">
