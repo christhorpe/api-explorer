@@ -106,6 +106,15 @@
 	color: white;
 }
 
+#results div.highlighted-json {
+	padding-left: 1em;
+}
+p#results-loading {
+	padding: 0 0 0 1em;
+	margin: 0;
+	font-weight: bold;
+	font-style: italic;
+}
 #tooltip {
 	position: absolute;
 	z-index: 3000;

@@ -107,8 +107,7 @@ function initApiExplorer(el) {
 		
 		$('input[name=url]', el).val(url);
 		$('#results').empty().append(
-			//'<img src="loading.gif">'
-			'<em>Loading...</em>'
+			'<p id="results-loading">Loading...</p>'
 		).addClass('loading');
 		$('#filters').empty();
 		$('#formats').hide();
