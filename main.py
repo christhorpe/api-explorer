@@ -15,10 +15,8 @@
 # limitations under the License.
 #
 
-import os
+import os, urllib
 import wsgiref.handlers
-
-
 
 from google.appengine.ext.webapp import template
 from google.appengine.ext import webapp
@@ -52,31 +50,42 @@ class PassThroughHandler(webapp.RequestHandler):
 
 
 class RateLimitedHandler(webapp.RequestHandler):
-  def get(self, requested_url, api_method):
-	logrequest = LogRequest(url=requested_url, handler="RateLimited", api_key=self.request.get("api_key"), api_method=api_method, requested_format=self.request.get("format")).put()
-	format = self.request.get("format")
-	if not format:
-		format = "xml"
-	if self.request.get("format") == "json":
-		self.response.headers['Content-Type'] = 'application/javascript'
-	else:
-		self.response.headers['Content-Type'] = 'application/xml'
-	if api_method == "search" or api_method == "all-subjects" or api_method == "content":
-		render_template(self, "canned_responses/"+ api_method +"."+ format, "")
-	elif api_method == "":
-		render_template(self, "canned_responses/root."+ format, "")
+    def get(self, requested_url, api_method):
+        logrequest = LogRequest(url=requested_url, handler="RateLimited", api_key=self.request.get("api_key"), api_method=api_method, requested_format=self.request.get("format")).put()
+        format = self.request.get("format")
+        if not format:
+            format = "xml"
+        if self.request.get("format") == "json":
+            self.response.headers['Content-Type'] = 'application/javascript'
+        else:
+            self.response.headers['Content-Type'] = 'application/xml'
+        if api_method == "search" or api_method == "all-subjects" or api_method == "content":
+            render_template(self, "canned_responses/"+ api_method +"."+ format, "")
+        elif api_method == "":
+            render_template(self, "canned_responses/root."+ format, "")
 
+def make_proxy_handler(prefix):
+    class ProxyHandler(webapp.RequestHandler):
+        def get(self, path):
+            url = prefix + path
+            if self.request.query_string:
+                url += '?' + self.request.query_string
+            u = urllib.urlopen(url)
+            self.response.headers['Content-Type'] = u.headers['content-type']
+            self.response.out.write(u.read())
+    return ProxyHandler
 
 def main():
-  application = webapp.WSGIApplication([('/', RootHandler),
-										('(/content/(search).*)', RateLimitedHandler),
-										('(/content/(all-subjects).*)', RateLimitedHandler),
-										('(/content/(content)/.*)', RateLimitedHandler),
-										('(/content().*)', RateLimitedHandler),
-										],
-                                       debug=True)
-  wsgiref.handlers.CGIHandler().run(application)
+    application = webapp.WSGIApplication([
+        ('/', RootHandler),
+        ('(/content/(search).*)', RateLimitedHandler),
+        ('(/content/(all-subjects).*)', RateLimitedHandler),
+        ('(/content/(content)/.*)', RateLimitedHandler),
+        ('(/content().*)', RateLimitedHandler),
+        ('(/gdn-api/.*)', make_proxy_handler('http://codresapi01.gudev.gnl:8300')),
+    ], debug=True)
+    wsgiref.handlers.CGIHandler().run(application)
 
 
 if __name__ == '__main__':
-  main()
+    main()
