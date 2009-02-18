@@ -42,14 +42,14 @@
 	border-right: none;
 	font-family: verdana, sans-serif;
 }
-#console #refinements {
+#console #filters {
 	width: 21em;
 	padding-left: 1em;
 	position: absolute;
 	top: 1em;
 	right: 0;
 }
-#refinements ul {
+#filters ul {
 	margin: 0;
 	padding: 0 0 0 1.5em;
 	font-size: 0.9em;

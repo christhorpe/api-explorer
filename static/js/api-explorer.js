@@ -110,7 +110,7 @@ function initApiExplorer(el) {
 			//'<img src="loading.gif">'
 			'<em>Loading...</em>'
 		).addClass('loading');
-		$('#refinements').empty();
+		$('#filters').empty();
 		$('#formats').hide();
 		
 		$.ajax({
@@ -140,11 +140,11 @@ function initApiExplorer(el) {
 				$('#formats .json a').attr('href', formatUrl(url, 'json'));
 				$('#formats .raw a').attr('href', url);
 				
-				// Show any refinements
+				// Show any filters
 				if (is_xml) {
-					showRefinements(extractXmlRefinements(domOrJson));
+					showFilters(extractXmlFilters(domOrJson));
 				} else {
-					showRefinements(extractJsonRefinements(domOrJson));
+					showFilters(extractJsonFilters(domOrJson));
 				}
 				hookupLinks();
 			},
@@ -157,46 +157,46 @@ function initApiExplorer(el) {
 		});
 	}
 	
-	function showRefinements(refinements) {
-		$('#refinements').empty();
-		if (refinements.length == 0) {
+	function showFilters(filters) {
+		$('#filters').empty();
+		if (filters.length == 0) {
 			return;
 		}
-		$('#refinements').append('<h4>Refinements</h4>');
+		$('#filters').append('<h4>Filters</h4>');
 		var ul = $('<ul></ul>');
-		$('#refinements').append(ul);
-		$.each(refinements, function(i, r) {
+		$('#filters').append(ul);
+		$.each(filters, function(i, r) {
 			ul.append($('<li><a href="' + r.url + '">' + 
 				r.name + '</a> - ' + r.count + '</li>'
 			));
 		});
 	}
-	function extractXmlRefinements(dom) {
+	function extractXmlFilters(dom) {
 		window.lastDom = dom;
 		var filters = dom.getElementsByTagName('filters')[0];
 		var els = filters.getElementsByTagName('tag');
-		var refinements = [];
+		var filters = [];
 		for (var i = 0, el; el = els[i]; i++) {
-			refinements[refinements.length] = {
+			filters[filters.length] = {
 				'name': el.getAttribute('name'),
 				'count': el.getAttribute('count'),
 				'url': el.getAttribute('filter-url')
 			}
 		}
-		return refinements;
+		return filters;
 	}
 	
-	function extractJsonRefinements(json) {
+	function extractJsonFilters(json) {
 		window.lastJson = json;
-		var refinements = [];
+		var filters = [];
 		$.each(json['search']['filters'], function(i, f) {
-			refinements[refinements.length] = {
+			filters[filters.length] = {
 				'name': f.name,
 				'count': f['count'],
 				'url': f['filterUrl']
 			}
 		});
-		return refinements;
+		return filters;
 	}
 	
 	function formatUrl(url, format) {
