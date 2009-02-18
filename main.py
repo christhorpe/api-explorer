@@ -25,28 +25,28 @@ from google.appengine.ext import db
 # simple logger data model, we can hopefully use this to give us some analytics on Mashery in terms of request proxying and maybe load balancing
 # remove before we redistribute
 class LogRequest(db.Model):
-	url = db.StringProperty(required=True)
-	handler = db.StringProperty(required=True)
-	api_key = db.StringProperty(default=None)
-	api_method = db.StringProperty(default=None)
-	requested_format = db.StringProperty(default=None)
-	created = db.DateTimeProperty(auto_now_add=True)
+    url = db.StringProperty(required=True)
+    handler = db.StringProperty(required=True)
+    api_key = db.StringProperty(default=None)
+    api_method = db.StringProperty(default=None)
+    requested_format = db.StringProperty(default=None)
+    created = db.DateTimeProperty(auto_now_add=True)
 
 
 def render_template(self, end_point, template_values):
-	path = os.path.join(os.path.dirname(__file__), end_point)
-	self.response.out.write(template.render(path, template_values))
+    path = os.path.join(os.path.dirname(__file__), end_point)
+    self.response.out.write(template.render(path, template_values))
 
 
 class RootHandler(webapp.RequestHandler):
-  def get(self):
-	self.redirect("/explorer/")
+    def get(self):
+        self.redirect("/explorer/")
 
 
 class PassThroughHandler(webapp.RequestHandler):
-  def get(self, requested_url):
-	logrequest = LogRequest(url=requested_url, handler="PassThrough").put()
-	self.response.out.write('docs in html')
+    def get(self, requested_url):
+        logrequest = LogRequest(url=requested_url, handler="PassThrough").put()
+        self.response.out.write('docs in html')
 
 
 class RateLimitedHandler(webapp.RequestHandler):
