@@ -192,8 +192,8 @@ function initApiExplorer(el) {
 		$.each(json['search']['filters'], function(i, f) {
 			refinements[refinements.length] = {
 				'name': f.name,
-				'count': f['@count'],
-				'url': f['openplatform-url']
+				'count': f['count'],
+				'url': f['filterUrl']
 			}
 		});
 		return refinements;
