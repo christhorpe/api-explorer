@@ -4,6 +4,7 @@ gdn.consolePane.init = function() {
     var $ = jQuery;
     
     var dragHeight = 25;
+    var initial_console_height = 300;
     
     // Insert the console
     var consoleDiv = $(
@@ -19,7 +20,7 @@ gdn.consolePane.init = function() {
         'background-color': '#eee'
     });
     
-    var console_height = 300;
+    var console_height = initial_console_height;
     var saved_console_height = console_height; // For dblclick restore
     
     function sizeIt() {
@@ -40,7 +41,7 @@ gdn.consolePane.init = function() {
     $(window).resize(sizeIt);
     
     var dragme = $(
-        '<div class="dragbar"><p>API Console</p></div>'
+        '<div class="dragbar"><p>API Console <a href="#">(close)</a></p></div>'
     ).insertBefore(consoleDiv).css({
         'height': dragHeight + 'px',
         'background-color': '#666',
@@ -58,6 +59,11 @@ gdn.consolePane.init = function() {
             console_height = $(window).height() - top - dragHeight;
             sizeIt();
             dragme.css('top', 0);
+            var text = '(open)'
+            if (console_height > 0) {
+                text = '(close)';
+            }
+            $('.dragbar a').html(text);
         }
     }).find('p').css({
         'margin': '0',
@@ -65,6 +71,21 @@ gdn.consolePane.init = function() {
         'color': '#fff',
         'line-height': '24px',
         'border-top': '1px solid black'
+    }).find('a').css({
+        'color': 'white',
+        'font-size': '0.9em'
+    }).click(function() {
+        var a = $(this);
+        if (console_height > 0) {
+            console_height = 0;
+            sizeIt();
+            a.html('(open)');
+        } else {
+            console_height = initial_console_height;
+            sizeIt();
+            a.html('(close)');
+        }
+        return false;
     });
     
     /*
