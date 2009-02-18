@@ -174,15 +174,13 @@ function initApiExplorer(el) {
 	function extractXmlRefinements(dom) {
 		window.lastDom = dom;
 		var filters = dom.getElementsByTagName('filters')[0];
-		var els = filters.getElementsByTagName('subject');
+		var els = filters.getElementsByTagName('tag');
 		var refinements = [];
 		for (var i = 0, el; el = els[i]; i++) {
 			refinements[refinements.length] = {
-				'name': el.getElementsByTagName('name')[0].firstChild.data,
+				'name': el.getAttribute('name'),
 				'count': el.getAttribute('count'),
-				'url': el.getElementsByTagName(
-					'openplatform-url'
-				)[0].firstChild.data
+				'url': el.getAttribute('filter-url')
 			}
 		}
 		return refinements;
