@@ -1,3 +1,2 @@
-* Internal link clicks should trigger loadUrl
-  ... which means rewriting them a bit due to the proxy (but only in dev?)
 * Enter your API key to enable the API console
+* Clean up the view for console visible but has not yet loaded a response

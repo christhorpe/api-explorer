@@ -136,6 +136,9 @@ gdn.apiExplorer = gdn.apiExplorer || {};
 		if (!url) {
 			return; // loadUrl called with empty string when page first loads
 		}
+		// Get rid of http://hostname, if present
+		url = url.replace(/^http:\/\/[^\/]+/, '');
+		
 		$('#tooltip').hide();
 	
 		$('input[name=url]', el).val(url);
@@ -205,8 +208,11 @@ gdn.apiExplorer = gdn.apiExplorer || {};
 	}
 	function extractXmlFilters(dom) {
 		window.lastDom = dom;
-		var filters = dom.getElementsByTagName('filters')[0];
-		var els = filters.getElementsByTagName('tag');
+		var filterEls = dom.getElementsByTagName('filters');
+		if (filterEls.length == 0) {
+			return [];
+		}
+		var els = filterEls[0].getElementsByTagName('tag');
 		var filters = [];
 		for (var i = 0, el; el = els[i]; i++) {
 			filters[filters.length] = {
