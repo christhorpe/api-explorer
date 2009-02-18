@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<tags count="7502" start-index="0">
+  <tag name="Cyprus" filter="/world/cyprus" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/cyprus" web-url="http://www.guardian.co.uk/world/cyprus"/>
+  <tag name="Tonsillitis" filter="/lifeandstyle/tonsillitis" gdn-url="http://localhost:8080/gdn-api/search?filter=/lifeandstyle/tonsillitis" web-url="http://www.guardian.co.uk/lifeandstyle/tonsillitis"/>
+  <tag name="New Zealand rugby league" filter="/sport/newzealandrugbyleague" gdn-url="http://localhost:8080/gdn-api/search?filter=/sport/newzealandrugbyleague" web-url="http://www.guardian.co.uk/sport/newzealandrugbyleague"/>
+  <tag name="Hurricanes 2005" filter="/world/hurricanes2005" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/hurricanes2005" web-url="http://www.guardian.co.uk/world/hurricanes2005"/>
+  <tag name="Sunderland" filter="/weather/sunderland" gdn-url="http://localhost:8080/gdn-api/search?filter=/weather/sunderland" web-url="http://www.guardian.co.uk/weather/sunderland"/>
+  <tag name="United States" filter="/travel/offers/unitedstates" gdn-url="http://localhost:8080/gdn-api/search?filter=/travel/offers/unitedstates" web-url="http://www.guardian.co.uk/travel/offers/unitedstates"/>
+  <tag name="Warrington" filter="/weather/warrington" gdn-url="http://localhost:8080/gdn-api/search?filter=/weather/warrington" web-url="http://www.guardian.co.uk/weather/warrington"/>
+  <tag name="Calcutta" filter="/weather/calcutta" gdn-url="http://localhost:8080/gdn-api/search?filter=/weather/calcutta" web-url="http://www.guardian.co.uk/weather/calcutta"/>
+  <tag name="Middlesex University" filter="/education/middlesexuniversity" gdn-url="http://localhost:8080/gdn-api/search?filter=/education/middlesexuniversity" web-url="http://www.guardian.co.uk/education/middlesexuniversity"/>
+  <tag name="Booker prize 2007" filter="/books/bookerprize2007" gdn-url="http://localhost:8080/gdn-api/search?filter=/books/bookerprize2007" web-url="http://www.guardian.co.uk/books/bookerprize2007"/>
+</tags>

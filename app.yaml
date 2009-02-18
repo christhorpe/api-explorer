@@ -1,0 +1,14 @@
+application: gdn-api-demo
+version: 1
+runtime: python
+api_version: 1
+handlers:
+- url: /explorer/
+  static_files: static/index.html
+  upload: static/index.html
+
+- url: /explorer
+  static_dir: static
+
+- url: .*
+  script: main.py

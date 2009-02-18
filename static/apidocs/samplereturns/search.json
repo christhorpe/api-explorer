@@ -1,0 +1,1130 @@
+{"search": {
+  "count": 6092,
+  "startIndex": 0,
+  "results": [
+    {
+      "id": "338373510",
+      "type": "article",
+      "publication": "guardian.co.uk",
+      "headline": "Liveblogging the Obama-McCain town hall debate",
+      "standfirst": "A minute-by-minute dispatch",
+      "byline": "Oliver Burkeman",
+      "sectionName": "World news",
+      "trailText": "<p><strong>Oliver Burkeman's Campaign Diary:</strong> A minute-by-minute dispatch</p>",
+      "cmsPath": "/Guardian/world/oliverburkemanblog/2008/oct/07/uselections2008.barackobama1",
+      "linkText": "Oliver Burkeman's Campaign Diary: Liveblogging the Obama-McCain town hall debate",
+      "webUrl": "http://www.gucode.co.uk/world/oliverburkemanblog/2008/oct/07/uselections2008.barackobama1",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/oliverburkemanblog/2008/oct/07/uselections2008.barackobama1",
+      "publicationDate": "2008-10-08T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Blogposts",
+          "type": "tone",
+          "filter": "/global/blogpost",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/blogpost",
+          "webUrl": "http://www.gucode.co.uk/global/blogpost"
+        },
+        {
+          "name": "Oliver Burkeman",
+          "type": "contributor",
+          "filter": "/global/oliverburkeman",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/oliverburkeman",
+          "webUrl": "http://www.gucode.co.uk/global/oliverburkeman"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "Deadline USA blog",
+          "type": "blog",
+          "filter": "/world/deadlineusa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/deadlineusa",
+          "webUrl": "http://www.gucode.co.uk/world/deadlineusa"
+        },
+        {
+          "name": "John McCain",
+          "type": "keyword",
+          "filter": "/world/johnmccain",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/johnmccain",
+          "webUrl": "http://www.gucode.co.uk/world/johnmccain"
+        },
+        {
+          "name": "Oliver Burkeman blog",
+          "type": "blog",
+          "filter": "/world/oliverburkemanblog",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/oliverburkemanblog",
+          "webUrl": "http://www.gucode.co.uk/world/oliverburkemanblog"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        }
+      ]
+    },
+    {
+      "id": "339374684",
+      "type": "article",
+      "publication": "The Guardian",
+      "headline": "The Obama story - part two",
+      "standfirst": "From Kenya village to the White House: one incredible journey",
+      "byline": "Jonathan Freedland, with additional reporting by Daniel Nasaw in Chicago, Dan Glaister in Hawaii, Xan Rice in Kenya and Ian MacKinnon in Jakarta",
+      "sectionName": "World news",
+      "trailText": "<p><strong>Part two: </strong>From Kenya village to the White House: one incredible journey</p>",
+      "cmsPath": "/Guardian/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-two",
+      "linkText": "President Obama: Jonathan Freedland tells his story, from Kenya village to the White House (part two)",
+      "webUrl": "http://www.gucode.co.uk/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-two",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-two",
+      "publicationDate": "2008-11-06T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Dan Glaister",
+          "type": "contributor",
+          "filter": "/global/danglaister",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/danglaister",
+          "webUrl": "http://www.gucode.co.uk/global/danglaister"
+        },
+        {
+          "name": "Daniel Nasaw",
+          "type": "contributor",
+          "filter": "/global/danielnasaw",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/danielnasaw",
+          "webUrl": "http://www.gucode.co.uk/global/danielnasaw"
+        },
+        {
+          "name": "Ian MacKinnon",
+          "type": "contributor",
+          "filter": "/global/ianmackinnon",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/ianmackinnon",
+          "webUrl": "http://www.gucode.co.uk/global/ianmackinnon"
+        },
+        {
+          "name": "Jonathan Freedland",
+          "type": "contributor",
+          "filter": "/global/jonathanfreedland",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/jonathanfreedland",
+          "webUrl": "http://www.gucode.co.uk/global/jonathanfreedland"
+        },
+        {
+          "name": "Xan Rice",
+          "type": "contributor",
+          "filter": "/global/xanrice",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/xanrice",
+          "webUrl": "http://www.gucode.co.uk/global/xanrice"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "From a remote African village to the White House",
+          "type": "",
+          "filter": "/world/president-barack-obama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/president-barack-obama",
+          "webUrl": "http://www.gucode.co.uk/world/president-barack-obama"
+        },
+        {
+          "name": "The Obama story",
+          "type": "",
+          "filter": "/world/the-obama-story",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/the-obama-story",
+          "webUrl": "http://www.gucode.co.uk/world/the-obama-story"
+        },
+        {
+          "name": "United States",
+          "type": "keyword",
+          "filter": "/world/usa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+          "webUrl": "http://www.gucode.co.uk/world/usa"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        }
+      ]
+    },
+    {
+      "id": "336911515",
+      "type": "article",
+      "publication": "The Observer",
+      "headline": "US elections: Why has Obama stalled? No one mentions race",
+      "standfirst": "On the eve of the Democrats' convention in Denver, Barack Obama finds himself struggling against a resurgent John McCain. Why isn't Obama doing better in the polls? There is one answer no one wants to hear.  Paul Harris reports on how race has become the great unspoken issue in the campaign for the White House - and why it may yet be the decisive factor",
+      "byline": "Paul Harris",
+      "sectionName": "World news",
+      "trailText": "<p>On the eve of the Democrats' convention, Obama finds himself struggling against a resurgent McCain</p>",
+      "cmsPath": "/Guardian/world/2008/aug/24/barackobama.democrats20081",
+      "linkText": "US elections: Why has Obama stalled? No one mentions race",
+      "webUrl": "http://www.gucode.co.uk/world/2008/aug/24/barackobama.democrats20081",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/2008/aug/24/barackobama.democrats20081",
+      "publicationDate": "2008-08-24T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "News",
+          "type": "tone",
+          "filter": "/global/news",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/news",
+          "webUrl": "http://www.gucode.co.uk/global/news"
+        },
+        {
+          "name": "Paul Harris",
+          "type": "contributor",
+          "filter": "/global/paulharris",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/paulharris",
+          "webUrl": "http://www.gucode.co.uk/global/paulharris"
+        },
+        {
+          "name": "Focus",
+          "type": "",
+          "filter": "/theobserver/focus",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/focus",
+          "webUrl": "http://www.gucode.co.uk/theobserver/focus"
+        },
+        {
+          "name": "Main section",
+          "type": "",
+          "filter": "/theobserver/news",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/news",
+          "webUrl": "http://www.gucode.co.uk/theobserver/news"
+        },
+        {
+          "name": "Observer",
+          "type": "keyword",
+          "filter": "/theobserver",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver",
+          "webUrl": "http://www.gucode.co.uk/theobserver"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "Colorado",
+          "type": "keyword",
+          "filter": "/world/colorado",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/colorado",
+          "webUrl": "http://www.gucode.co.uk/world/colorado"
+        },
+        {
+          "name": "Democratic convention 2008",
+          "type": "keyword",
+          "filter": "/world/democrats2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/democrats2008",
+          "webUrl": "http://www.gucode.co.uk/world/democrats2008"
+        },
+        {
+          "name": "Democrats",
+          "type": "keyword",
+          "filter": "/world/democrats",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/democrats",
+          "webUrl": "http://www.gucode.co.uk/world/democrats"
+        },
+        {
+          "name": "John McCain",
+          "type": "keyword",
+          "filter": "/world/johnmccain",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/johnmccain",
+          "webUrl": "http://www.gucode.co.uk/world/johnmccain"
+        },
+        {
+          "name": "Race issues",
+          "type": "keyword",
+          "filter": "/world/race",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/race",
+          "webUrl": "http://www.gucode.co.uk/world/race"
+        },
+        {
+          "name": "United States",
+          "type": "keyword",
+          "filter": "/world/usa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+          "webUrl": "http://www.gucode.co.uk/world/usa"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        },
+        {
+          "name": "World news",
+          "type": "keyword",
+          "filter": "/world",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world",
+          "webUrl": "http://www.gucode.co.uk/world"
+        }
+      ]
+    },
+    {
+      "id": "338030449",
+      "type": "article",
+      "publication": "guardian.co.uk",
+      "headline": "Liveblogging the first Obama-McCain debate",
+      "standfirst": "A minute-by-minute dispatch",
+      "byline": "Oliver Burkeman",
+      "sectionName": "World news",
+      "trailText": "<p><strong>Oliver Burkeman's Campaign Diary:</strong> A minute-by-minute dispatch</p>",
+      "cmsPath": "/Guardian/world/oliverburkemanblog/2008/sep/27/uselections2008.barackobama",
+      "linkText": "Oliver Burkeman's Campaign Diary: Liveblogging the first Obama-McCain presidential debate",
+      "webUrl": "http://www.gucode.co.uk/world/oliverburkemanblog/2008/sep/27/uselections2008.barackobama",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/oliverburkemanblog/2008/sep/27/uselections2008.barackobama",
+      "publicationDate": "2008-09-27T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Blogposts",
+          "type": "tone",
+          "filter": "/global/blogpost",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/blogpost",
+          "webUrl": "http://www.gucode.co.uk/global/blogpost"
+        },
+        {
+          "name": "Oliver Burkeman",
+          "type": "contributor",
+          "filter": "/global/oliverburkeman",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/oliverburkeman",
+          "webUrl": "http://www.gucode.co.uk/global/oliverburkeman"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "John McCain",
+          "type": "keyword",
+          "filter": "/world/johnmccain",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/johnmccain",
+          "webUrl": "http://www.gucode.co.uk/world/johnmccain"
+        },
+        {
+          "name": "Oliver Burkeman blog",
+          "type": "blog",
+          "filter": "/world/oliverburkemanblog",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/oliverburkemanblog",
+          "webUrl": "http://www.gucode.co.uk/world/oliverburkemanblog"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        }
+      ]
+    },
+    {
+      "id": "333919258",
+      "type": "article",
+      "publication": "The Observer",
+      "headline": "Obama hunts for knock-out punch as fight turns ugly",
+      "standfirst": "The bitter battle for the Democratic candidacy this week moves to Indiana and North Carolina, where the frontrunner is desperately hoping to inflict terminal damage on Hillary Clinton's hopes. But in a contest dominated by race, it is the party as a whole that is hurting, reports Paul Harris in Indiana",
+      "byline": "Paul Harris in Indiana",
+      "sectionName": "World news",
+      "trailText": "<p>In a contest dominated by race, it is the party as a whole that is hurting, reports <strong>Paul Harris</strong> in Indiana</p>",
+      "cmsPath": "/Guardian/world/2008/may/04/barackobama.hillaryclinton",
+      "linkText": "Obama hunts for knock-out punch as fight turns ugly ",
+      "webUrl": "http://www.gucode.co.uk/world/2008/may/04/barackobama.hillaryclinton",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/2008/may/04/barackobama.hillaryclinton",
+      "publicationDate": "2008-05-04T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Paul Harris",
+          "type": "contributor",
+          "filter": "/global/paulharris",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/paulharris",
+          "webUrl": "http://www.gucode.co.uk/global/paulharris"
+        },
+        {
+          "name": "Main section",
+          "type": "",
+          "filter": "/theobserver/news",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/news",
+          "webUrl": "http://www.gucode.co.uk/theobserver/news"
+        },
+        {
+          "name": "World news",
+          "type": "",
+          "filter": "/theobserver/worldnews",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/worldnews",
+          "webUrl": "http://www.gucode.co.uk/theobserver/worldnews"
+        },
+        {
+          "name": "Observer",
+          "type": "keyword",
+          "filter": "/theobserver",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver",
+          "webUrl": "http://www.gucode.co.uk/theobserver"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "Hillary Clinton",
+          "type": "keyword",
+          "filter": "/world/hillaryclinton",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/hillaryclinton",
+          "webUrl": "http://www.gucode.co.uk/world/hillaryclinton"
+        },
+        {
+          "name": "Indiana",
+          "type": "keyword",
+          "filter": "/world/indiana",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/indiana",
+          "webUrl": "http://www.gucode.co.uk/world/indiana"
+        },
+        {
+          "name": "North Carolina",
+          "type": "keyword",
+          "filter": "/world/northcarolina",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/northcarolina",
+          "webUrl": "http://www.gucode.co.uk/world/northcarolina"
+        },
+        {
+          "name": "United States",
+          "type": "keyword",
+          "filter": "/world/usa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+          "webUrl": "http://www.gucode.co.uk/world/usa"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        },
+        {
+          "name": "World news",
+          "type": "keyword",
+          "filter": "/world",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world",
+          "webUrl": "http://www.gucode.co.uk/world"
+        }
+      ]
+    },
+    {
+      "id": "339331123",
+      "type": "article",
+      "publication": "guardian.co.uk",
+      "headline": "Barack Obama and John McCain: How the night unfolded",
+      "standfirst": "As it happened - The Guardian's through-the-night reporting of America's historic presidential election",
+      "byline": "Simon Jeffery",
+      "sectionName": "World news",
+      "trailText": "<p>As it happened - The Guardian's through-the-night reporting of America's historic presidential election</p>",
+      "cmsPath": "/Guardian/world/deadlineusa/2008/nov/04/uselections2008-johnmccain",
+      "linkText": "Barack Obama and John McCain: How the night unfolded",
+      "webUrl": "http://www.gucode.co.uk/world/deadlineusa/2008/nov/04/uselections2008-johnmccain",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/deadlineusa/2008/nov/04/uselections2008-johnmccain",
+      "publicationDate": "2008-11-04T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Minute by minute",
+          "type": "tone",
+          "filter": "/global/minutebyminute",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/minutebyminute",
+          "webUrl": "http://www.gucode.co.uk/global/minutebyminute"
+        },
+        {
+          "name": "Simon Jeffery",
+          "type": "contributor",
+          "filter": "/global/simonjeffery",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/simonjeffery",
+          "webUrl": "http://www.gucode.co.uk/global/simonjeffery"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "Deadline USA blog",
+          "type": "blog",
+          "filter": "/world/deadlineusa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/deadlineusa",
+          "webUrl": "http://www.gucode.co.uk/world/deadlineusa"
+        },
+        {
+          "name": "Joe Biden",
+          "type": "keyword",
+          "filter": "/world/joebiden",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/joebiden",
+          "webUrl": "http://www.gucode.co.uk/world/joebiden"
+        },
+        {
+          "name": "John McCain",
+          "type": "keyword",
+          "filter": "/world/johnmccain",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/johnmccain",
+          "webUrl": "http://www.gucode.co.uk/world/johnmccain"
+        },
+        {
+          "name": "Sarah Palin",
+          "type": "keyword",
+          "filter": "/world/sarahpalin",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/sarahpalin",
+          "webUrl": "http://www.gucode.co.uk/world/sarahpalin"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        }
+      ]
+    },
+    {
+      "id": "339235911",
+      "type": "article",
+      "publication": "The Observer",
+      "headline": "'The election of Obama would, at a stroke, refresh our country's spirit'",
+      "standfirst": "It has been an epic campaign for the American Presidency and one which has been scrutinised at close quarters by the US's finest writers on the New Yorker magazine - the country's leading journal of politics and culture. Here, in their leader column ahead of the election, the editors of the magazine offer a brilliant analysis of the choice facing America, deconstruct the strengths and weaknesses of the candidates and finish with a powerful endorsement of Barack Obama as the man best suited to answer the grave challenges facing the next President",
+      "sectionName": "World news",
+      "trailText": "<p>The New Yorker editors offer a brilliant analysis of the choice facing America on Tuesday 4 November</p>",
+      "cmsPath": "/Guardian/world/2008/nov/02/elections-obama-mccain-yorker-democrats",
+      "linkText": "New Yorker: 'The election of Obama would, at a stroke, refresh our country's spirit'",
+      "webUrl": "http://www.gucode.co.uk/world/2008/nov/02/elections-obama-mccain-yorker-democrats",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/2008/nov/02/elections-obama-mccain-yorker-democrats",
+      "publicationDate": "2008-11-02T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Comment",
+          "type": "tone",
+          "filter": "/global/comment",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/comment",
+          "webUrl": "http://www.gucode.co.uk/global/comment"
+        },
+        {
+          "name": "Focus",
+          "type": "",
+          "filter": "/theobserver/focus",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/focus",
+          "webUrl": "http://www.gucode.co.uk/theobserver/focus"
+        },
+        {
+          "name": "Main section",
+          "type": "",
+          "filter": "/theobserver/news",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/news",
+          "webUrl": "http://www.gucode.co.uk/theobserver/news"
+        },
+        {
+          "name": "Observer",
+          "type": "keyword",
+          "filter": "/theobserver",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver",
+          "webUrl": "http://www.gucode.co.uk/theobserver"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "John McCain",
+          "type": "keyword",
+          "filter": "/world/johnmccain",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/johnmccain",
+          "webUrl": "http://www.gucode.co.uk/world/johnmccain"
+        },
+        {
+          "name": "United States",
+          "type": "keyword",
+          "filter": "/world/usa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+          "webUrl": "http://www.gucode.co.uk/world/usa"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        },
+        {
+          "name": "World news",
+          "type": "keyword",
+          "filter": "/world",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world",
+          "webUrl": "http://www.gucode.co.uk/world"
+        }
+      ]
+    },
+    {
+      "id": "332667011",
+      "type": "article",
+      "publication": "The Observer",
+      "headline": "The week the Obama backlash started",
+      "standfirst": "As the Democratic frontrunner racks up one primary victory after another, American newspapers and TV shows have started to pick over his past and ridicule his rhetoric. But will this come too late to restore the fortunes of Hillary Clinton, who needs to win both Ohio and Texas to stay in the race?",
+      "byline": "Paul Harris in New York",
+      "sectionName": "World news",
+      "trailText": "<p>Signs of a more critical press for the Democratic frontrunner offer hope to Clinton camp</p>",
+      "cmsPath": "/Guardian/world/2008/feb/24/barackobama.hillaryclinton",
+      "linkText": "The week the Obama backlash started",
+      "webUrl": "http://www.gucode.co.uk/world/2008/feb/24/barackobama.hillaryclinton",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/2008/feb/24/barackobama.hillaryclinton",
+      "publicationDate": "2008-02-24T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Paul Harris",
+          "type": "contributor",
+          "filter": "/global/paulharris",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/paulharris",
+          "webUrl": "http://www.gucode.co.uk/global/paulharris"
+        },
+        {
+          "name": "Main section",
+          "type": "",
+          "filter": "/theobserver/news",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/news",
+          "webUrl": "http://www.gucode.co.uk/theobserver/news"
+        },
+        {
+          "name": "World news",
+          "type": "",
+          "filter": "/theobserver/worldnews",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/worldnews",
+          "webUrl": "http://www.gucode.co.uk/theobserver/worldnews"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "Hillary Clinton",
+          "type": "keyword",
+          "filter": "/world/hillaryclinton",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/hillaryclinton",
+          "webUrl": "http://www.gucode.co.uk/world/hillaryclinton"
+        },
+        {
+          "name": "Ohio",
+          "type": "keyword",
+          "filter": "/world/ohio",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/ohio",
+          "webUrl": "http://www.gucode.co.uk/world/ohio"
+        },
+        {
+          "name": "United States",
+          "type": "keyword",
+          "filter": "/world/usa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+          "webUrl": "http://www.gucode.co.uk/world/usa"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        },
+        {
+          "name": "World news",
+          "type": "keyword",
+          "filter": "/world",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world",
+          "webUrl": "http://www.gucode.co.uk/world"
+        }
+      ]
+    },
+    {
+      "id": "334667324",
+      "type": "article",
+      "publication": "The Observer",
+      "headline": "Democrats in rural strongholds refuse to give backing to Obama",
+      "standfirst": "The conservative Appalachian heartlands voted overwhelmingly for Hillary Clinton - and will switch to McCain in November",
+      "byline": "Paul Harris in Williamson, West Virginia",
+      "sectionName": "World news",
+      "trailText": "<p>The conservative Appalachian heartlands voted overwhelmingly for Hillary Clinton - and will switch to McCain in November</p>",
+      "cmsPath": "/Guardian/world/2008/jun/08/barackobama.hillaryclinton",
+      "linkText": "Democrats in rural strongholds refuse to give backing to Obama",
+      "webUrl": "http://www.gucode.co.uk/world/2008/jun/08/barackobama.hillaryclinton",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/2008/jun/08/barackobama.hillaryclinton",
+      "publicationDate": "2008-06-08T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Paul Harris",
+          "type": "contributor",
+          "filter": "/global/paulharris",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/paulharris",
+          "webUrl": "http://www.gucode.co.uk/global/paulharris"
+        },
+        {
+          "name": "Main section",
+          "type": "",
+          "filter": "/theobserver/news",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/news",
+          "webUrl": "http://www.gucode.co.uk/theobserver/news"
+        },
+        {
+          "name": "World news",
+          "type": "",
+          "filter": "/theobserver/worldnews",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/worldnews",
+          "webUrl": "http://www.gucode.co.uk/theobserver/worldnews"
+        },
+        {
+          "name": "Observer",
+          "type": "keyword",
+          "filter": "/theobserver",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver",
+          "webUrl": "http://www.gucode.co.uk/theobserver"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "Hillary Clinton",
+          "type": "keyword",
+          "filter": "/world/hillaryclinton",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/hillaryclinton",
+          "webUrl": "http://www.gucode.co.uk/world/hillaryclinton"
+        },
+        {
+          "name": "United States",
+          "type": "keyword",
+          "filter": "/world/usa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+          "webUrl": "http://www.gucode.co.uk/world/usa"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        },
+        {
+          "name": "Virginia",
+          "type": "keyword",
+          "filter": "/world/virginia",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/virginia",
+          "webUrl": "http://www.gucode.co.uk/world/virginia"
+        },
+        {
+          "name": "World news",
+          "type": "keyword",
+          "filter": "/world",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world",
+          "webUrl": "http://www.gucode.co.uk/world"
+        }
+      ]
+    },
+    {
+      "id": "339374883",
+      "type": "article",
+      "publication": "The Guardian",
+      "headline": "The Obama story - part three",
+      "standfirst": "From Kenya village to the White House: one incredible journey",
+      "byline": "Jonathan Freedland, with additional reporting by Daniel Nasaw in Chicago, Dan Glaister in Hawaii, Xan Rice in Kenya and Ian MacKinnon in Jakarta",
+      "sectionName": "World news",
+      "trailText": "<p><strong>Part three: </strong>From Kenya village to the White House: one incredible journey</p>",
+      "cmsPath": "/Guardian/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-three",
+      "linkText": "President Obama: Jonathan Freedland tells his story, from Kenya village to the White House (part three)",
+      "webUrl": "http://www.gucode.co.uk/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-three",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/content/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-three",
+      "publicationDate": "2008-11-06T00:00:00",
+      "tags": [
+        {
+          "name": "Article",
+          "type": "content-type",
+          "filter": "/global/article",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+          "webUrl": "http://www.gucode.co.uk/global/article"
+        },
+        {
+          "name": "Dan Glaister",
+          "type": "contributor",
+          "filter": "/global/danglaister",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/danglaister",
+          "webUrl": "http://www.gucode.co.uk/global/danglaister"
+        },
+        {
+          "name": "Daniel Nasaw",
+          "type": "contributor",
+          "filter": "/global/danielnasaw",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/danielnasaw",
+          "webUrl": "http://www.gucode.co.uk/global/danielnasaw"
+        },
+        {
+          "name": "Ian MacKinnon",
+          "type": "contributor",
+          "filter": "/global/ianmackinnon",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/ianmackinnon",
+          "webUrl": "http://www.gucode.co.uk/global/ianmackinnon"
+        },
+        {
+          "name": "Jonathan Freedland",
+          "type": "contributor",
+          "filter": "/global/jonathanfreedland",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/jonathanfreedland",
+          "webUrl": "http://www.gucode.co.uk/global/jonathanfreedland"
+        },
+        {
+          "name": "Xan Rice",
+          "type": "contributor",
+          "filter": "/global/xanrice",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/xanrice",
+          "webUrl": "http://www.gucode.co.uk/global/xanrice"
+        },
+        {
+          "name": "Barack Obama",
+          "type": "keyword",
+          "filter": "/world/barackobama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+          "webUrl": "http://www.gucode.co.uk/world/barackobama"
+        },
+        {
+          "name": "From a remote African village to the White House",
+          "type": "",
+          "filter": "/world/president-barack-obama",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/president-barack-obama",
+          "webUrl": "http://www.gucode.co.uk/world/president-barack-obama"
+        },
+        {
+          "name": "The Obama story",
+          "type": "",
+          "filter": "/world/the-obama-story",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/the-obama-story",
+          "webUrl": "http://www.gucode.co.uk/world/the-obama-story"
+        },
+        {
+          "name": "United States",
+          "type": "keyword",
+          "filter": "/world/usa",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+          "webUrl": "http://www.gucode.co.uk/world/usa"
+        },
+        {
+          "name": "US elections 2008",
+          "type": "keyword",
+          "filter": "/world/uselections2008",
+          "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+          "webUrl": "http://www.gucode.co.uk/world/uselections2008"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "name": "Article",
+      "type": "content-type",
+      "filter": "/global/article",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/article",
+      "webUrl": "http://www.gucode.co.uk/global/article",
+      "count": 5680,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/article"
+    },
+    {
+      "name": "World news",
+      "type": "keyword",
+      "filter": "/world",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world",
+      "webUrl": "http://www.gucode.co.uk/world",
+      "count": 3609,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world"
+    },
+    {
+      "name": "US elections 2008",
+      "type": "keyword",
+      "filter": "/world/uselections2008",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/uselections2008",
+      "webUrl": "http://www.gucode.co.uk/world/uselections2008",
+      "count": 2944,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world/uselections2008"
+    },
+    {
+      "name": "United States",
+      "type": "keyword",
+      "filter": "/world/usa",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/usa",
+      "webUrl": "http://www.gucode.co.uk/world/usa",
+      "count": 2784,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world/usa"
+    },
+    {
+      "name": "Barack Obama",
+      "type": "keyword",
+      "filter": "/world/barackobama",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/barackobama",
+      "webUrl": "http://www.gucode.co.uk/world/barackobama",
+      "count": 2308,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world/barackobama"
+    },
+    {
+      "name": "Blogposts",
+      "type": "tone",
+      "filter": "/global/blogpost",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/blogpost",
+      "webUrl": "http://www.gucode.co.uk/global/blogpost",
+      "count": 1586,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/blogpost"
+    },
+    {
+      "name": "News",
+      "type": "tone",
+      "filter": "/global/news",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/news",
+      "webUrl": "http://www.gucode.co.uk/global/news",
+      "count": 1470,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/news"
+    },
+    {
+      "name": "Main section",
+      "type": "",
+      "filter": "/news/mainsection",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/news/mainsection",
+      "webUrl": "http://www.gucode.co.uk/news/mainsection",
+      "count": 1182,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/news/mainsection"
+    },
+    {
+      "name": "Politics",
+      "type": "keyword",
+      "filter": "/politics",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/politics",
+      "webUrl": "http://www.gucode.co.uk/politics",
+      "count": 1032,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/politics"
+    },
+    {
+      "name": "John McCain",
+      "type": "keyword",
+      "filter": "/world/johnmccain",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/johnmccain",
+      "webUrl": "http://www.gucode.co.uk/world/johnmccain",
+      "count": 1007,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world/johnmccain"
+    },
+    {
+      "name": "Deadline USA blog",
+      "type": "blog",
+      "filter": "/world/deadlineusa",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/deadlineusa",
+      "webUrl": "http://www.gucode.co.uk/world/deadlineusa",
+      "count": 795,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world/deadlineusa"
+    },
+    {
+      "name": "Hillary Clinton",
+      "type": "keyword",
+      "filter": "/world/hillaryclinton",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/hillaryclinton",
+      "webUrl": "http://www.gucode.co.uk/world/hillaryclinton",
+      "count": 664,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world/hillaryclinton"
+    },
+    {
+      "name": "International",
+      "type": "",
+      "filter": "/theguardian/international",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theguardian/international",
+      "webUrl": "http://www.gucode.co.uk/theguardian/international",
+      "count": 661,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/theguardian/international"
+    },
+    {
+      "name": "Culture",
+      "type": "keyword",
+      "filter": "/culture",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/culture",
+      "webUrl": "http://www.gucode.co.uk/culture",
+      "count": 558,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/culture"
+    },
+    {
+      "name": "Ewen MacAskill",
+      "type": "contributor",
+      "filter": "/global/ewenmacaskill",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/ewenmacaskill",
+      "webUrl": "http://www.gucode.co.uk/global/ewenmacaskill",
+      "count": 555,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/ewenmacaskill"
+    },
+    {
+      "name": "Suzanne Goldenberg",
+      "type": "contributor",
+      "filter": "/global/suzannegoldenberg",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/suzannegoldenberg",
+      "webUrl": "http://www.gucode.co.uk/global/suzannegoldenberg",
+      "count": 474,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/suzannegoldenberg"
+    },
+    {
+      "name": "Democrats",
+      "type": "keyword",
+      "filter": "/world/democrats",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/democrats",
+      "webUrl": "http://www.gucode.co.uk/world/democrats",
+      "count": 472,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/world/democrats"
+    },
+    {
+      "name": "Daniel Nasaw",
+      "type": "contributor",
+      "filter": "/global/danielnasaw",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/danielnasaw",
+      "webUrl": "http://www.gucode.co.uk/global/danielnasaw",
+      "count": 419,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/danielnasaw"
+    },
+    {
+      "name": "Observer",
+      "type": "keyword",
+      "filter": "/theobserver",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver",
+      "webUrl": "http://www.gucode.co.uk/theobserver",
+      "count": 409,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/theobserver"
+    },
+    {
+      "name": "UK news",
+      "type": "keyword",
+      "filter": "/uk",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/uk",
+      "webUrl": "http://www.gucode.co.uk/uk",
+      "count": 397,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/uk"
+    },
+    {
+      "name": "Business",
+      "type": "keyword",
+      "filter": "/business",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/business",
+      "webUrl": "http://www.gucode.co.uk/business",
+      "count": 334,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/business"
+    },
+    {
+      "name": "Elana Schor",
+      "type": "contributor",
+      "filter": "/global/elanaschor",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/elanaschor",
+      "webUrl": "http://www.gucode.co.uk/global/elanaschor",
+      "count": 323,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/elanaschor"
+    },
+    {
+      "name": "Main section",
+      "type": "",
+      "filter": "/theobserver/news",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/theobserver/news",
+      "webUrl": "http://www.gucode.co.uk/theobserver/news",
+      "count": 227,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/theobserver/news"
+    },
+    {
+      "name": "Features",
+      "type": "tone",
+      "filter": "/global/features",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/features",
+      "webUrl": "http://www.gucode.co.uk/global/features",
+      "count": 189,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/features"
+    },
+    {
+      "name": "Paul Harris",
+      "type": "contributor",
+      "filter": "/global/paulharris",
+      "gdnUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/global/paulharris",
+      "webUrl": "http://www.gucode.co.uk/global/paulharris",
+      "count": 103,
+      "filterUrl": "http://codresapi01.gudev.gnl:8300/gdn-api/search?q=obama&format=json&filter=/global/paulharris"
+    }
+  ]
+}}

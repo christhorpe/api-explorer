@@ -1,0 +1,76 @@
+{"tags": {
+  "count": 7502,
+  "startIndex": 0,
+  "tags": [
+    {
+      "name": "Cyprus",
+      "section": "World news",
+      "filter": "/world/cyprus",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/world/cyprus",
+      "webUrl": "http://www.guardian.co.uk/world/cyprus"
+    },
+    {
+      "name": "Tonsillitis",
+      "section": "Life and style",
+      "filter": "/lifeandstyle/tonsillitis",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/lifeandstyle/tonsillitis",
+      "webUrl": "http://www.guardian.co.uk/lifeandstyle/tonsillitis"
+    },
+    {
+      "name": "New Zealand rugby league",
+      "section": "Sport",
+      "filter": "/sport/newzealandrugbyleague",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/sport/newzealandrugbyleague",
+      "webUrl": "http://www.guardian.co.uk/sport/newzealandrugbyleague"
+    },
+    {
+      "name": "Hurricanes 2005",
+      "section": "World news",
+      "filter": "/world/hurricanes2005",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/world/hurricanes2005",
+      "webUrl": "http://www.guardian.co.uk/world/hurricanes2005"
+    },
+    {
+      "name": "Sunderland",
+      "section": "Weather",
+      "filter": "/weather/sunderland",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/weather/sunderland",
+      "webUrl": "http://www.guardian.co.uk/weather/sunderland"
+    },
+    {
+      "name": "United States",
+      "section": "Guardian holiday offers",
+      "filter": "/travel/offers/unitedstates",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/travel/offers/unitedstates",
+      "webUrl": "http://www.guardian.co.uk/travel/offers/unitedstates"
+    },
+    {
+      "name": "Warrington",
+      "section": "Weather",
+      "filter": "/weather/warrington",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/weather/warrington",
+      "webUrl": "http://www.guardian.co.uk/weather/warrington"
+    },
+    {
+      "name": "Calcutta",
+      "section": "Weather",
+      "filter": "/weather/calcutta",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/weather/calcutta",
+      "webUrl": "http://www.guardian.co.uk/weather/calcutta"
+    },
+    {
+      "name": "Middlesex University",
+      "section": "Education",
+      "filter": "/education/middlesexuniversity",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/education/middlesexuniversity",
+      "webUrl": "http://www.guardian.co.uk/education/middlesexuniversity"
+    },
+    {
+      "name": "Booker prize 2007",
+      "section": "Books",
+      "filter": "/books/bookerprize2007",
+      "gdnUrl": "http://localhost:8080/gdn-api/search?filter=/books/bookerprize2007",
+      "webUrl": "http://www.guardian.co.uk/books/bookerprize2007"
+    }
+  ]
+}}

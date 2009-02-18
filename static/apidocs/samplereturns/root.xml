@@ -1,0 +1,158 @@
+&lt;endpoints&gt;
+	&lt;endpoint url="/gdn-api/search"&gt;
+		&lt;name&gt;Search&lt;/name&gt;
+		&lt;description&gt;Search our archive&lt;/description&gt;
+		&lt;params&gt;
+			&lt;param name="q" required="false"&gt;A string to search for, if omitted all content is returned&lt;/param&gt;
+			&lt;param name="after" required="false"&gt;Returns only content published after this date. The date is formatted YYYYMMDD&lt;/param&gt;
+
+			&lt;param name="before" required="false"&gt;Returns only content published before this date. The date is formatted YYYYMMDD&lt;/param&gt;
+			&lt;param name="content-type" required="false"&gt;The type of content to return e.g article, audio, gallery, poll etc.&lt;/param&gt;
+			&lt;param name="count" required="false"&gt;Specifies how many items to return as part of this query, if omitted 10 results will be returned&lt;/param&gt;
+			&lt;param name="start-index" required="false"&gt;Allows pagination through results by specifying which result to start from&lt;/param&gt;
+			&lt;param name="filter" required="false"&gt;Returns only results that match the given subject filter(s). Multiple subject filters can be applied. Valid values can be obtained using the all-subjects endpoint.&lt;/param&gt;
+			&lt;param name="order-by-date" required="false"&gt;Returns the results in date order, rather than relevance order. Takes an optional value of asc, which reverses the order&lt;/param&gt;
+
+			&lt;param name="format" required="false"&gt;Specifies what format to return results in, the supported values are: xml, json and atom. If this is not specified results are returned in xml format&lt;/param&gt;
+			&lt;param name="callback" required="false"&gt;Specifies a javascript function to be invoked with the results from a query.&lt;/param&gt;
+		&lt;/params&gt;
+		&lt;supported-formats&gt;
+			&lt;format&gt;xml&lt;/format&gt;
+			&lt;format&gt;json&lt;/format&gt;
+			&lt;format&gt;atom&lt;/format&gt;
+
+		&lt;/supported-formats&gt;
+		&lt;examples&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search]]&gt;&lt;/url&gt;
+				&lt;description&gt;Root search - exposes the entire content collection, paginated. Results are returned in xml format.&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?format=json]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;Root search - exposes the entire content collection, paginated. Results are returned in JSON format.&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?format=json&callback=processResults]]&gt;&lt;/url&gt;
+				&lt;description&gt;Root search - exposes the entire content collection, paginated. Results are returned in JSON format and passed to the processResults javascript method.&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?format=atom]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;Root search - exposes the entire content collection, paginated Results are returned in atom format..&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?count=20]]&gt;&lt;/url&gt;
+				&lt;description&gt;gets the 20 most recent content items&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?count=20&start-index=20]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;gets the second page of 20 most recent content items&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?q=obama]]&gt;&lt;/url&gt;
+				&lt;description&gt;Searches for all content for "obama"&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?content-type=gallery]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;Searches for all gallery content items&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?q=obama&after=20080101&before=20080501]]&gt;&lt;/url&gt;
+				&lt;description&gt;Searches for all content for "obama" published between the 1st of Jan 2008 and the 1st of May 2008&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?filter=/world/barackobama]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;Exposes all content with the world news - Barack Obama subject tag&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?order-by-date]]&gt;&lt;/url&gt;
+				&lt;description&gt;Orders the search by date, most recent content first&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/search?order-by-date=asc]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;Orders the search by date, oldest content first&lt;/description&gt;
+			&lt;/example&gt;
+		&lt;/examples&gt;
+	&lt;/endpoint&gt;
+	&lt;endpoint url="/gdn-api/all-subjects"&gt;
+		&lt;name&gt;Search for subjects&lt;/name&gt;
+		&lt;description&gt;Search for subjects within the API&lt;/description&gt;
+
+		&lt;params&gt;
+			&lt;param name="q" required="false"&gt;A string to search for, if omitted all subjects are returned&lt;/param&gt;
+			&lt;param name="count" required="false"&gt;Specifies how many items to return as part of this quer, if omitted 10 subjects are returned&lt;/param&gt;
+			&lt;param name="start-index" required="false"&gt;Allows pagination through results by specifying which result to start from&lt;/param&gt;
+			&lt;param name="format" required="false"&gt;Specifies what format to return results in, the supported values are: xml and json. If this is not specified results are returned in xml format&lt;/param&gt;
+			&lt;param name="callback" required="false"&gt;Specifies a javascript function to be invoked with the results from a query&lt;/param&gt;
+
+		&lt;/params&gt;
+		&lt;supported-formats&gt;
+			&lt;format&gt;xml&lt;/format&gt;
+			&lt;format&gt;json&lt;/format&gt;
+		&lt;/supported-formats&gt;
+		&lt;examples&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/all-subjects]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;Root search - exposes all subjects in the API. Results are returned in xml format&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/all-subjects?format=json]]&gt;&lt;/url&gt;
+				&lt;description&gt;Root search - exposes all subjects in the API. Results are returned in json format&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/all-subjects?format=json&callback=processResults]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;Root search - exposes all subjects in the API. Results are returned in json format and passed to the processResults javascript method.&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/all-subjects?count=20]]&gt;&lt;/url&gt;
+				&lt;description&gt;gets the first 20 subjects&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/all-subjects?count=20&start-index=20]]&gt;&lt;/url&gt;
+
+				&lt;description&gt;gets the second page of 20 subjects&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/all-subjects?q=obama]]&gt;&lt;/url&gt;
+				&lt;description&gt;Searches for all subjects featuring "obama"&lt;/description&gt;
+			&lt;/example&gt;
+		&lt;/examples&gt;
+	&lt;/endpoint&gt;
+
+	&lt;endpoint url="/gdn-api/content/[content-path]"&gt;
+		&lt;name&gt;Content item&lt;/name&gt;
+		&lt;description&gt;Returns the full details of an individual item of content. Every content item listed in the search results provides the url at which to get the individual content item.&lt;/description&gt;
+		&lt;params&gt;
+			&lt;param name="format" required="false"&gt;Specifies what format to return results in, the supported values are: xml and json. If this is not specified results are returned in xml format&lt;/param&gt;
+			&lt;param name="callback" required="false"&gt;Specifies a javascript function to be invoked with the results from a query.&lt;/param&gt;
+		&lt;/params&gt;
+
+		&lt;supported-formats&gt;
+			&lt;format&gt;xml&lt;/format&gt;
+			&lt;format&gt;json&lt;/format&gt;
+		&lt;/supported-formats&gt;
+		&lt;examples&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/content/commentisfree/2008/mar/14/uselections2008.barackobama]]&gt;&lt;/url&gt;
+				&lt;description&gt;Retrieves a single unique article via the api as xml. The equivalent article is available on guardian.co.uk at http://www.guardian.co.uk/commentisfree/2008/mar/14/uselections2008.barackobama&lt;/description&gt;
+
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/content/commentisfree/2008/mar/14/uselections2008.barackobama?format=json]]&gt;&lt;/url&gt;
+				&lt;description&gt;Retrieves a single unique article via the api as json. The equivalent article is available on guardian.co.uk at http://www.guardian.co.uk/commentisfree/2008/mar/14/uselections2008.barackobama&lt;/description&gt;
+			&lt;/example&gt;
+			&lt;example&gt;
+				&lt;url&gt;&lt;![CDATA[/gdn-api/content/commentisfree/2008/mar/14/uselections2008.barackobama?format=json&callback=processResults]]&gt;&lt;/url&gt;
+				&lt;description&gt;Retrieves a single unique article via the api as json and passed to the processResults javascript method.. The equivalent article is available on guardian.co.uk at http://www.guardian.co.uk/commentisfree/2008/mar/14/uselections2008.barackobama&lt;/description&gt;
+
+			&lt;/example&gt;
+		&lt;/examples&gt;
+	&lt;/endpoint&gt;
+&lt;/endpoints&gt;

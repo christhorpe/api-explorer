@@ -1,0 +1,64 @@
+<link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/69852/original/common/styles/wide/base-typography.css" media="screen" />
+
+
+<h1 class="documentation_headline">/content<strong>/search</strong></h1>
+<div class="definition">
+	A paginated search of the content archive.  
+</div>
+<h2>Sample query</h2>
+<div><a href="/content/search?q=obama" target="_new">Sample query</a></div>
+<h2>Parameters</h2>
+<table>
+<tr class="parameter">
+	<th class="parameter_name">q</th>
+	<td class="parameter_definition">A string to search for, if omitted all content is returned.</td>
+	<td class="parameter_action"></td>
+</tr>
+<tr class="parameter">
+	<th class="parameter_name">after</th> 
+	<td class="parameter_definition">Returns only content published after this date. The date is formatted YYYYMMDD, e.g. 20090310.</td>
+	<td class="parameter_action"></td>
+</tr>
+<tr class="parameter">
+	<th class="parameter_name">before</th> 
+	<td class="parameter_definition">Returns only content published before this date. The date is formatted YYYYMMDD.</td>
+	<td class="parameter_action"></td>
+</tr>
+<tr class="parameter">
+	<th class="parameter_name">content-type</th> 
+	<td class="parameter_definition">The type of content to return e.g article, audio, gallery, poll etc.</td>
+	<td class="parameter_action"></td>
+</tr>
+<tr class="parameter">
+	<th class="parameter_name">count</th> 
+	<td class="parameter_definition">Specifies how many items to return as part of this query, if omitted 10 results will be returned.</td>
+	<td class="parameter_action"></td>
+</tr>
+<tr class="parameter">
+	<th class="parameter_name">start-index</th> 
+	<td class="parameter_definition">Allows pagination through results by specifying which result to start from.</td>
+	<td class="parameter_action"></td>
+</tr>
+<tr class="parameter">
+	<th class="parameter_name">filter</th> 
+	<td class="parameter_definition">Returns only results that match the given subject filter(s). Multiple subject filters can be applied and will be combined using the AND operator. Valid values can be obtained using the all-subjects endpoint.</td>
+	<td class="parameter_action"></td>
+</tr>
+</table>
+
+<h2>Sample returns</h2>
+<div class="return_format_nav" id="samplereturn_navigation"><span class="return_format_picker" name="xml">XML</span><span class="return_format_picker" name="json">JSON</span><span class="return_format_picker" name="atom">ATOM</span><span class="return_format_picker" name="none">hide returns</span></div>
+<div class="sample_return">
+	<pre id="id_sample_return" class="sample_return"></pre>
+</div>
+<h2>Sample useage</h2>
+
+<pre class="prettyprint">
+</pre>
+
+
+<script type="text/javascript">
+	$(document).ready( function() {
+		init_docpage("search");
+	});
+</script>

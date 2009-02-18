@@ -1,0 +1,14 @@
+&lt;?xml version="1.0"?&gt;
+&lt;tags count="7502" start-index="0"&gt;
+  &lt;tag name="Cyprus" filter="/world/cyprus" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/cyprus" web-url="http://www.gucode.co.uk/world/cyprus"/&gt;
+  &lt;tag name="Tonsillitis" filter="/lifeandstyle/tonsillitis" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/lifeandstyle/tonsillitis" web-url="http://www.gucode.co.uk/lifeandstyle/tonsillitis"/&gt;
+  &lt;tag name="New Zealand rugby league" filter="/sport/newzealandrugbyleague" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/sport/newzealandrugbyleague" web-url="http://www.gucode.co.uk/sport/newzealandrugbyleague"/&gt;
+  &lt;tag name="Hurricanes 2005" filter="/world/hurricanes2005" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/world/hurricanes2005" web-url="http://www.gucode.co.uk/world/hurricanes2005"/&gt;
+  &lt;tag name="Sunderland" filter="/weather/sunderland" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/weather/sunderland" web-url="http://www.gucode.co.uk/weather/sunderland"/&gt;
+  &lt;tag name="United States" filter="/travel/offers/unitedstates" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/travel/offers/unitedstates" web-url="http://www.gucode.co.uk/travel/offers/unitedstates"/&gt;
+  &lt;tag name="Warrington" filter="/weather/warrington" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/weather/warrington" web-url="http://www.gucode.co.uk/weather/warrington"/&gt;
+  &lt;tag name="Calcutta" filter="/weather/calcutta" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/weather/calcutta" web-url="http://www.gucode.co.uk/weather/calcutta"/&gt;
+
+  &lt;tag name="Middlesex University" filter="/education/middlesexuniversity" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/education/middlesexuniversity" web-url="http://www.gucode.co.uk/education/middlesexuniversity"/&gt;
+  &lt;tag name="Booker prize 2007" filter="/books/bookerprize2007" gdn-url="http://codresapi01.gudev.gnl:8300/gdn-api/search?filter=/books/bookerprize2007" web-url="http://www.gucode.co.uk/books/bookerprize2007"/&gt;
+&lt;/tags&gt;

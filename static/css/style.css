@@ -1,0 +1,189 @@
+a {
+	color: #f00;
+	text-decoration: none;
+}
+
+div.hidden {
+	visibility: hidden;
+}
+
+div.form_block {
+	border: 1px solid #ccc;
+	padding:1;
+}
+
+div.documentation_block {
+}
+
+div.title {
+	font-size: 130%;
+	padding-bottom: 2;
+	border-bottom: 1px dotted #999;
+	margin-bottom: 10;
+}
+
+div.subtitle {
+	font-weight: bold;
+	color: #999;
+	margin-top: 5;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 5;
+}
+
+ul.explorer_navigation {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li.explorer_navigation_link {
+	padding: 3;
+	color: #f00;
+	font-size: 80%;
+	font-family: Georgia, Serif;
+}
+
+li.explorer_navigation_hover {
+	color: #600;
+	background-color: #eee;
+}
+
+div.main_panel {
+	width: 935px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid #999;
+}
+
+table.api_explorer {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	z-index:- 1;
+}
+
+td.main_navigation {
+	padding-top:20px;
+}
+
+
+h1.documentation_headline {
+	font-size: 30px;
+	color: #060;
+	border-bottom: 1px dotted #090;
+}
+
+h2 {
+	font-size: 20px;
+	color: #090;
+}
+
+h4 {
+	font-size: 16px;
+	color: #333;
+}
+
+div.definition {
+	font-size: 18px;
+	color: #333;
+}
+
+div.sample_return {
+	border: 1px solid #ccc;
+	background-color: #efe;
+	padding: 10px
+}
+
+textarea.sample_return {
+	border: 0px;
+	background-color: #efe;
+	height: 300px;
+	width: 100%;
+}
+
+th.parameter_name {
+	width: 100px;
+	background-color: #eee;
+	color: #060;
+	font-weight: bo;
+	text-align: left;
+	padding: 5px;
+	font-family: georgia, serif;
+	font-size: 14px;
+}
+
+td.parameter_definition {
+	text-align: left;
+	padding: 5px;
+}
+
+td.parameter_action {
+	text-align: left;
+	padding: 5px;
+}
+
+table {
+	margin-left: 15px;
+}
+
+div.return_format_nav {
+	padding-top: 7px;
+	padding-bottom: 9px;
+}
+
+span.return_format_picker {
+	padding:6px;
+	background-color: #999;
+	color: #fff;
+	margin: 1px;
+	font-family: georgia, serif;
+	font-weight: bold;
+}
+
+span.return_format_picker_hover {
+	background-color: #030;
+}
+
+span.return_format_picker_selected {
+	background-color: #333;
+}
+
+
+
+td.main_navigation {
+	width: 150;
+	height: 100%;
+	text-align: left;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+}
+
+td.documentation_panel {
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #fff;
+}
+
+div.explorer_nav {
+}
+
+label.api_side_form {
+	color: #;
+}
+
+input.api_side_form {
+	background-color: #999;
+	color: #fff;
+	font-size: 80%;
+	height: 20;
+	width: 100;
+	border: 0;
+	margin: 1;
+}

@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<search count="6092" start-index="0">
+  <results>
+    <content type="article" web-url="http://www.guardian.co.uk/world/oliverburkemanblog/2008/oct/07/uselections2008.barackobama1" gdn-url="http://localhost:8080/gdn-api/content/world/oliverburkemanblog/2008/oct/07/uselections2008.barackobama1">
+      <id>338373510</id>
+      <publication>guardian.co.uk</publication>
+      <headline>Liveblogging the Obama-McCain town hall debate</headline>
+      <standfirst>A minute-by-minute dispatch</standfirst>
+      <byline>Oliver Burkeman</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;&lt;strong&gt;Oliver Burkeman&apos;s Campaign Diary:&lt;/strong&gt; A minute-by-minute dispatch&lt;/p&gt;</trail-text>
+      <link-text>Oliver Burkeman&apos;s Campaign Diary: Liveblogging the Obama-McCain town hall debate</link-text>
+      <publication-date>2008-10-08T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Blogposts" type="tone" filter="/global/blogpost" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/blogpost" web-url="http://www.guardian.co.uk/global/blogpost"/>
+        <tag name="Oliver Burkeman" type="contributor" filter="/global/oliverburkeman" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/oliverburkeman" web-url="http://www.guardian.co.uk/global/oliverburkeman"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="Deadline USA blog" type="blog" filter="/world/deadlineusa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/deadlineusa" web-url="http://www.guardian.co.uk/world/deadlineusa"/>
+
+        <tag name="John McCain" type="keyword" filter="/world/johnmccain" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/johnmccain" web-url="http://www.guardian.co.uk/world/johnmccain"/>
+        <tag name="Oliver Burkeman blog" type="blog" filter="/world/oliverburkemanblog" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/oliverburkemanblog" web-url="http://www.guardian.co.uk/world/oliverburkemanblog"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-two" gdn-url="http://localhost:8080/gdn-api/content/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-two">
+      <id>339374684</id>
+      <publication>The Guardian</publication>
+
+      <headline>The Obama story - part two</headline>
+      <standfirst>From Kenya village to the White House: one incredible journey</standfirst>
+      <byline>Jonathan Freedland, with additional reporting by Daniel Nasaw in Chicago, Dan Glaister in Hawaii, Xan Rice in Kenya and Ian MacKinnon in Jakarta</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;&lt;strong&gt;Part two: &lt;/strong&gt;From Kenya village to the White House: one incredible journey&lt;/p&gt;</trail-text>
+      <link-text>President Obama: Jonathan Freedland tells his story, from Kenya village to the White House (part two)</link-text>
+      <publication-date>2008-11-06T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Dan Glaister" type="contributor" filter="/global/danglaister" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/danglaister" web-url="http://www.guardian.co.uk/global/danglaister"/>
+        <tag name="Daniel Nasaw" type="contributor" filter="/global/danielnasaw" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/danielnasaw" web-url="http://www.guardian.co.uk/global/danielnasaw"/>
+        <tag name="Ian MacKinnon" type="contributor" filter="/global/ianmackinnon" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/ianmackinnon" web-url="http://www.guardian.co.uk/global/ianmackinnon"/>
+        <tag name="Jonathan Freedland" type="contributor" filter="/global/jonathanfreedland" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/jonathanfreedland" web-url="http://www.guardian.co.uk/global/jonathanfreedland"/>
+        <tag name="Xan Rice" type="contributor" filter="/global/xanrice" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/xanrice" web-url="http://www.guardian.co.uk/global/xanrice"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="From a remote African village to the White House" type="" filter="/world/president-barack-obama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/president-barack-obama" web-url="http://www.guardian.co.uk/world/president-barack-obama"/>
+        <tag name="The Obama story" type="" filter="/world/the-obama-story" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/the-obama-story" web-url="http://www.guardian.co.uk/world/the-obama-story"/>
+        <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/2008/aug/24/barackobama.democrats20081" gdn-url="http://localhost:8080/gdn-api/content/world/2008/aug/24/barackobama.democrats20081">
+      <id>336911515</id>
+      <publication>The Observer</publication>
+      <headline>US elections: Why has Obama stalled? No one mentions race</headline>
+      <standfirst>On the eve of the Democrats&apos; convention in Denver, Barack Obama finds himself struggling against a resurgent John McCain. Why isn&apos;t Obama doing better in the polls? There is one answer no one wants to hear.  Paul Harris reports on how race has become the great unspoken issue in the campaign for the White House - and why it may yet be the decisive factor</standfirst>
+      <byline>Paul Harris</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;On the eve of the Democrats&apos; convention, Obama finds himself struggling against a resurgent McCain&lt;/p&gt;</trail-text>
+      <link-text>US elections: Why has Obama stalled? No one mentions race</link-text>
+      <publication-date>2008-08-24T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="News" type="tone" filter="/global/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/news" web-url="http://www.guardian.co.uk/global/news"/>
+        <tag name="Paul Harris" type="contributor" filter="/global/paulharris" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/paulharris" web-url="http://www.guardian.co.uk/global/paulharris"/>
+        <tag name="Focus" type="" filter="/theobserver/focus" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/focus" web-url="http://www.guardian.co.uk/theobserver/focus"/>
+        <tag name="Main section" type="" filter="/theobserver/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/news" web-url="http://www.guardian.co.uk/theobserver/news"/>
+        <tag name="Observer" type="keyword" filter="/theobserver" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver" web-url="http://www.guardian.co.uk/theobserver"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="Colorado" type="keyword" filter="/world/colorado" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/colorado" web-url="http://www.guardian.co.uk/world/colorado"/>
+        <tag name="Democratic convention 2008" type="keyword" filter="/world/democrats2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/democrats2008" web-url="http://www.guardian.co.uk/world/democrats2008"/>
+        <tag name="Democrats" type="keyword" filter="/world/democrats" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/democrats" web-url="http://www.guardian.co.uk/world/democrats"/>
+        <tag name="John McCain" type="keyword" filter="/world/johnmccain" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/johnmccain" web-url="http://www.guardian.co.uk/world/johnmccain"/>
+        <tag name="Race issues" type="keyword" filter="/world/race" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/race" web-url="http://www.guardian.co.uk/world/race"/>
+        <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+        <tag name="World news" type="keyword" filter="/world" gdn-url="http://localhost:8080/gdn-api/search?filter=/world" web-url="http://www.guardian.co.uk/world"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/oliverburkemanblog/2008/sep/27/uselections2008.barackobama" gdn-url="http://localhost:8080/gdn-api/content/world/oliverburkemanblog/2008/sep/27/uselections2008.barackobama">
+      <id>338030449</id>
+      <publication>guardian.co.uk</publication>
+      <headline>Liveblogging the first Obama-McCain debate</headline>
+      <standfirst>A minute-by-minute dispatch</standfirst>
+      <byline>Oliver Burkeman</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;&lt;strong&gt;Oliver Burkeman&apos;s Campaign Diary:&lt;/strong&gt; A minute-by-minute dispatch&lt;/p&gt;</trail-text>
+      <link-text>Oliver Burkeman&apos;s Campaign Diary: Liveblogging the first Obama-McCain presidential debate</link-text>
+      <publication-date>2008-09-27T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Blogposts" type="tone" filter="/global/blogpost" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/blogpost" web-url="http://www.guardian.co.uk/global/blogpost"/>
+        <tag name="Oliver Burkeman" type="contributor" filter="/global/oliverburkeman" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/oliverburkeman" web-url="http://www.guardian.co.uk/global/oliverburkeman"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="John McCain" type="keyword" filter="/world/johnmccain" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/johnmccain" web-url="http://www.guardian.co.uk/world/johnmccain"/>
+        <tag name="Oliver Burkeman blog" type="blog" filter="/world/oliverburkemanblog" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/oliverburkemanblog" web-url="http://www.guardian.co.uk/world/oliverburkemanblog"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/2008/may/04/barackobama.hillaryclinton" gdn-url="http://localhost:8080/gdn-api/content/world/2008/may/04/barackobama.hillaryclinton">
+      <id>333919258</id>
+      <publication>The Observer</publication>
+      <headline>Obama hunts for knock-out punch as fight turns ugly</headline>
+      <standfirst>The bitter battle for the Democratic candidacy this week moves to Indiana and North Carolina, where the frontrunner is desperately hoping to inflict terminal damage on Hillary Clinton&apos;s hopes. But in a contest dominated by race, it is the party as a whole that is hurting, reports Paul Harris in Indiana</standfirst>
+      <byline>Paul Harris in Indiana</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;In a contest dominated by race, it is the party as a whole that is hurting, reports &lt;strong&gt;Paul Harris&lt;/strong&gt; in Indiana&lt;/p&gt;</trail-text>
+      <link-text>Obama hunts for knock-out punch as fight turns ugly </link-text>
+      <publication-date>2008-05-04T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Paul Harris" type="contributor" filter="/global/paulharris" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/paulharris" web-url="http://www.guardian.co.uk/global/paulharris"/>
+        <tag name="Main section" type="" filter="/theobserver/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/news" web-url="http://www.guardian.co.uk/theobserver/news"/>
+        <tag name="World news" type="" filter="/theobserver/worldnews" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/worldnews" web-url="http://www.guardian.co.uk/theobserver/worldnews"/>
+        <tag name="Observer" type="keyword" filter="/theobserver" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver" web-url="http://www.guardian.co.uk/theobserver"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="Hillary Clinton" type="keyword" filter="/world/hillaryclinton" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/hillaryclinton" web-url="http://www.guardian.co.uk/world/hillaryclinton"/>
+        <tag name="Indiana" type="keyword" filter="/world/indiana" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/indiana" web-url="http://www.guardian.co.uk/world/indiana"/>
+        <tag name="North Carolina" type="keyword" filter="/world/northcarolina" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/northcarolina" web-url="http://www.guardian.co.uk/world/northcarolina"/>
+        <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+        <tag name="World news" type="keyword" filter="/world" gdn-url="http://localhost:8080/gdn-api/search?filter=/world" web-url="http://www.guardian.co.uk/world"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/deadlineusa/2008/nov/04/uselections2008-johnmccain" gdn-url="http://localhost:8080/gdn-api/content/world/deadlineusa/2008/nov/04/uselections2008-johnmccain">
+      <id>339331123</id>
+      <publication>guardian.co.uk</publication>
+      <headline>Barack Obama and John McCain: How the night unfolded</headline>
+      <standfirst>As it happened - The Guardian&apos;s through-the-night reporting of America&apos;s historic presidential election</standfirst>
+      <byline>Simon Jeffery</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;As it happened - The Guardian&apos;s through-the-night reporting of America&apos;s historic presidential election&lt;/p&gt;</trail-text>
+      <link-text>Barack Obama and John McCain: How the night unfolded</link-text>
+       <publication-date>2008-11-04T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Minute by minute" type="tone" filter="/global/minutebyminute" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/minutebyminute" web-url="http://www.guardian.co.uk/global/minutebyminute"/>
+        <tag name="Simon Jeffery" type="contributor" filter="/global/simonjeffery" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/simonjeffery" web-url="http://www.guardian.co.uk/global/simonjeffery"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="Deadline USA blog" type="blog" filter="/world/deadlineusa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/deadlineusa" web-url="http://www.guardian.co.uk/world/deadlineusa"/>
+
+        <tag name="Joe Biden" type="keyword" filter="/world/joebiden" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/joebiden" web-url="http://www.guardian.co.uk/world/joebiden"/>
+        <tag name="John McCain" type="keyword" filter="/world/johnmccain" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/johnmccain" web-url="http://www.guardian.co.uk/world/johnmccain"/>
+        <tag name="Sarah Palin" type="keyword" filter="/world/sarahpalin" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/sarahpalin" web-url="http://www.guardian.co.uk/world/sarahpalin"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/2008/nov/02/elections-obama-mccain-yorker-democrats" gdn-url="http://localhost:8080/gdn-api/content/world/2008/nov/02/elections-obama-mccain-yorker-democrats">
+      <id>339235911</id>
+      <publication>The Observer</publication>
+      <headline>&apos;The election of Obama would, at a stroke, refresh our country&apos;s spirit&apos;</headline>
+      <standfirst>It has been an epic campaign for the American Presidency and one which has been scrutinised at close quarters by the US&apos;s finest writers on the New Yorker magazine - the country&apos;s leading journal of politics and culture. Here, in their leader column ahead of the election, the editors of the magazine offer a brilliant analysis of the choice facing America, deconstruct the strengths and weaknesses of the candidates and finish with a powerful endorsement of Barack Obama as the man best suited to answer the grave challenges facing the next President</standfirst>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;The New Yorker editors offer a brilliant analysis of the choice facing America on Tuesday 4 November&lt;/p&gt;</trail-text>
+      <link-text>New Yorker: &apos;The election of Obama would, at a stroke, refresh our country&apos;s spirit&apos;</link-text>
+      <publication-date>2008-11-02T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Comment" type="tone" filter="/global/comment" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/comment" web-url="http://www.guardian.co.uk/global/comment"/>
+        <tag name="Focus" type="" filter="/theobserver/focus" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/focus" web-url="http://www.guardian.co.uk/theobserver/focus"/>
+        <tag name="Main section" type="" filter="/theobserver/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/news" web-url="http://www.guardian.co.uk/theobserver/news"/>
+        <tag name="Observer" type="keyword" filter="/theobserver" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver" web-url="http://www.guardian.co.uk/theobserver"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="John McCain" type="keyword" filter="/world/johnmccain" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/johnmccain" web-url="http://www.guardian.co.uk/world/johnmccain"/>
+        <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+        <tag name="World news" type="keyword" filter="/world" gdn-url="http://localhost:8080/gdn-api/search?filter=/world" web-url="http://www.guardian.co.uk/world"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/2008/feb/24/barackobama.hillaryclinton" gdn-url="http://localhost:8080/gdn-api/content/world/2008/feb/24/barackobama.hillaryclinton">
+      <id>332667011</id>
+      <publication>The Observer</publication>
+      <headline>The week the Obama backlash started</headline>
+      <standfirst>As the Democratic frontrunner racks up one primary victory after another, American newspapers and TV shows have started to pick over his past and ridicule his rhetoric. But will this come too late to restore the fortunes of Hillary Clinton, who needs to win both Ohio and Texas to stay in the race?</standfirst>
+      <byline>Paul Harris in New York</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;Signs of a more critical press for the Democratic frontrunner offer hope to Clinton camp&lt;/p&gt;</trail-text>
+      <link-text>The week the Obama backlash started</link-text>
+      <publication-date>2008-02-24T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Paul Harris" type="contributor" filter="/global/paulharris" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/paulharris" web-url="http://www.guardian.co.uk/global/paulharris"/>
+        <tag name="Main section" type="" filter="/theobserver/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/news" web-url="http://www.guardian.co.uk/theobserver/news"/>
+        <tag name="World news" type="" filter="/theobserver/worldnews" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/worldnews" web-url="http://www.guardian.co.uk/theobserver/worldnews"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="Hillary Clinton" type="keyword" filter="/world/hillaryclinton" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/hillaryclinton" web-url="http://www.guardian.co.uk/world/hillaryclinton"/>
+        <tag name="Ohio" type="keyword" filter="/world/ohio" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/ohio" web-url="http://www.guardian.co.uk/world/ohio"/>
+        <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+        <tag name="World news" type="keyword" filter="/world" gdn-url="http://localhost:8080/gdn-api/search?filter=/world" web-url="http://www.guardian.co.uk/world"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/2008/jun/08/barackobama.hillaryclinton" gdn-url="http://localhost:8080/gdn-api/content/world/2008/jun/08/barackobama.hillaryclinton">
+      <id>334667324</id>
+      <publication>The Observer</publication>
+      <headline>Democrats in rural strongholds refuse to give backing to Obama</headline>
+      <standfirst>The conservative Appalachian heartlands voted overwhelmingly for Hillary Clinton - and will switch to McCain in November</standfirst>
+      <byline>Paul Harris in Williamson, West Virginia</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;The conservative Appalachian heartlands voted overwhelmingly for Hillary Clinton - and will switch to McCain in November&lt;/p&gt;</trail-text>
+      <link-text>Democrats in rural strongholds refuse to give backing to Obama</link-text>
+      <publication-date>2008-06-08T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Paul Harris" type="contributor" filter="/global/paulharris" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/paulharris" web-url="http://www.guardian.co.uk/global/paulharris"/>
+        <tag name="Main section" type="" filter="/theobserver/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/news" web-url="http://www.guardian.co.uk/theobserver/news"/>
+        <tag name="World news" type="" filter="/theobserver/worldnews" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/worldnews" web-url="http://www.guardian.co.uk/theobserver/worldnews"/>
+        <tag name="Observer" type="keyword" filter="/theobserver" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver" web-url="http://www.guardian.co.uk/theobserver"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="Hillary Clinton" type="keyword" filter="/world/hillaryclinton" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/hillaryclinton" web-url="http://www.guardian.co.uk/world/hillaryclinton"/>
+        <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+        <tag name="Virginia" type="keyword" filter="/world/virginia" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/virginia" web-url="http://www.guardian.co.uk/world/virginia"/>
+        <tag name="World news" type="keyword" filter="/world" gdn-url="http://localhost:8080/gdn-api/search?filter=/world" web-url="http://www.guardian.co.uk/world"/>
+      </tagged-with>
+    </content>
+    <content type="article" web-url="http://www.guardian.co.uk/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-three" gdn-url="http://localhost:8080/gdn-api/content/world/2008/nov/06/president-obama-story-kenya-to-white-house-part-three">
+      <id>339374883</id>
+      <publication>The Guardian</publication>
+      <headline>The Obama story - part three</headline>
+      <standfirst>From Kenya village to the White House: one incredible journey</standfirst>
+      <byline>Jonathan Freedland, with additional reporting by Daniel Nasaw in Chicago, Dan Glaister in Hawaii, Xan Rice in Kenya and Ian MacKinnon in Jakarta</byline>
+      <section-name>World news</section-name>
+      <trail-text>&lt;p&gt;&lt;strong&gt;Part three: &lt;/strong&gt;From Kenya village to the White House: one incredible journey&lt;/p&gt;</trail-text>
+      <link-text>President Obama: Jonathan Freedland tells his story, from Kenya village to the White House (part three)</link-text>
+      <publication-date>2008-11-06T00:00:00</publication-date>
+      <tagged-with>
+        <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article"/>
+        <tag name="Dan Glaister" type="contributor" filter="/global/danglaister" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/danglaister" web-url="http://www.guardian.co.uk/global/danglaister"/>
+        <tag name="Daniel Nasaw" type="contributor" filter="/global/danielnasaw" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/danielnasaw" web-url="http://www.guardian.co.uk/global/danielnasaw"/>
+        <tag name="Ian MacKinnon" type="contributor" filter="/global/ianmackinnon" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/ianmackinnon" web-url="http://www.guardian.co.uk/global/ianmackinnon"/>
+        <tag name="Jonathan Freedland" type="contributor" filter="/global/jonathanfreedland" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/jonathanfreedland" web-url="http://www.guardian.co.uk/global/jonathanfreedland"/>
+        <tag name="Xan Rice" type="contributor" filter="/global/xanrice" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/xanrice" web-url="http://www.guardian.co.uk/global/xanrice"/>
+        <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama"/>
+        <tag name="From a remote African village to the White House" type="" filter="/world/president-barack-obama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/president-barack-obama" web-url="http://www.guardian.co.uk/world/president-barack-obama"/>
+        <tag name="The Obama story" type="" filter="/world/the-obama-story" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/the-obama-story" web-url="http://www.guardian.co.uk/world/the-obama-story"/>
+        <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa"/>
+        <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008"/>
+      </tagged-with>
+    </content>
+  </results>
+  <filters>
+    <tag name="Article" type="content-type" filter="/global/article" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/article" web-url="http://www.guardian.co.uk/global/article" count="5680" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/article"/>
+    <tag name="World news" type="keyword" filter="/world" gdn-url="http://localhost:8080/gdn-api/search?filter=/world" web-url="http://www.guardian.co.uk/world" count="3609" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world"/>
+    <tag name="US elections 2008" type="keyword" filter="/world/uselections2008" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/uselections2008" web-url="http://www.guardian.co.uk/world/uselections2008" count="2944" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world/uselections2008"/>
+    <tag name="United States" type="keyword" filter="/world/usa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/usa" web-url="http://www.guardian.co.uk/world/usa" count="2784" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world/usa"/>
+    <tag name="Barack Obama" type="keyword" filter="/world/barackobama" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/barackobama" web-url="http://www.guardian.co.uk/world/barackobama" count="2308" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world/barackobama"/>
+    <tag name="Blogposts" type="tone" filter="/global/blogpost" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/blogpost" web-url="http://www.guardian.co.uk/global/blogpost" count="1586" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/blogpost"/>
+    <tag name="News" type="tone" filter="/global/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/news" web-url="http://www.guardian.co.uk/global/news" count="1470" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/news"/>
+    <tag name="Main section" type="" filter="/news/mainsection" gdn-url="http://localhost:8080/gdn-api/search?filter=/news/mainsection" web-url="http://www.guardian.co.uk/news/mainsection" count="1182" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/news/mainsection"/>
+    <tag name="Politics" type="keyword" filter="/politics" gdn-url="http://localhost:8080/gdn-api/search?filter=/politics" web-url="http://www.guardian.co.uk/politics" count="1032" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/politics"/>
+    <tag name="John McCain" type="keyword" filter="/world/johnmccain" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/johnmccain" web-url="http://www.guardian.co.uk/world/johnmccain" count="1007" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world/johnmccain"/>
+    <tag name="Deadline USA blog" type="blog" filter="/world/deadlineusa" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/deadlineusa" web-url="http://www.guardian.co.uk/world/deadlineusa" count="795" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world/deadlineusa"/>
+    <tag name="Hillary Clinton" type="keyword" filter="/world/hillaryclinton" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/hillaryclinton" web-url="http://www.guardian.co.uk/world/hillaryclinton" count="664" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world/hillaryclinton"/>
+    <tag name="International" type="" filter="/theguardian/international" gdn-url="http://localhost:8080/gdn-api/search?filter=/theguardian/international" web-url="http://www.guardian.co.uk/theguardian/international" count="661" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/theguardian/international"/>
+    <tag name="Culture" type="keyword" filter="/culture" gdn-url="http://localhost:8080/gdn-api/search?filter=/culture" web-url="http://www.guardian.co.uk/culture" count="558" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/culture"/>
+    <tag name="Ewen MacAskill" type="contributor" filter="/global/ewenmacaskill" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/ewenmacaskill" web-url="http://www.guardian.co.uk/global/ewenmacaskill" count="555" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/ewenmacaskill"/>
+    <tag name="Suzanne Goldenberg" type="contributor" filter="/global/suzannegoldenberg" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/suzannegoldenberg" web-url="http://www.guardian.co.uk/global/suzannegoldenberg" count="474" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/suzannegoldenberg"/>
+    <tag name="Democrats" type="keyword" filter="/world/democrats" gdn-url="http://localhost:8080/gdn-api/search?filter=/world/democrats" web-url="http://www.guardian.co.uk/world/democrats" count="472" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/world/democrats"/>
+    <tag name="Daniel Nasaw" type="contributor" filter="/global/danielnasaw" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/danielnasaw" web-url="http://www.guardian.co.uk/global/danielnasaw" count="419" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/danielnasaw"/>
+    <tag name="Observer" type="keyword" filter="/theobserver" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver" web-url="http://www.guardian.co.uk/theobserver" count="409" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/theobserver"/>
+    <tag name="UK news" type="keyword" filter="/uk" gdn-url="http://localhost:8080/gdn-api/search?filter=/uk" web-url="http://www.guardian.co.uk/uk" count="397" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/uk"/>
+    <tag name="Business" type="keyword" filter="/business" gdn-url="http://localhost:8080/gdn-api/search?filter=/business" web-url="http://www.guardian.co.uk/business" count="334" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/business"/>
+    <tag name="Elana Schor" type="contributor" filter="/global/elanaschor" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/elanaschor" web-url="http://www.guardian.co.uk/global/elanaschor" count="323" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/elanaschor"/>
+    <tag name="Main section" type="" filter="/theobserver/news" gdn-url="http://localhost:8080/gdn-api/search?filter=/theobserver/news" web-url="http://www.guardian.co.uk/theobserver/news" count="227" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/theobserver/news"/>
+    <tag name="Features" type="tone" filter="/global/features" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/features" web-url="http://www.guardian.co.uk/global/features" count="189" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/features"/>
+    <tag name="Paul Harris" type="contributor" filter="/global/paulharris" gdn-url="http://localhost:8080/gdn-api/search?filter=/global/paulharris" web-url="http://www.guardian.co.uk/global/paulharris" count="103" filter-url="http://localhost:8080/gdn-api/search?q=obama&amp;filter=/global/paulharris"/>
+  </filters>
+</search>
