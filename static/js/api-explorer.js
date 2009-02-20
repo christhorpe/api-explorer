@@ -1,6 +1,7 @@
 gdn = window.gdn || {};
 gdn.consolePane = gdn.consolePane || {};
 (function($) {
+	var api_key_cookie = 'gdn_api_key';
 	var dragHeight = 25;
 	var initial_console_height = 300;
 	var console_height = initial_console_height;
@@ -12,16 +13,11 @@ gdn.consolePane = gdn.consolePane || {};
 		// Insert the console
 		consoleDiv = $(
 			'<div id="console"><div></div></div>'
-		).hide().insertAfter('#main').find('div').load(
-			'/explorer/_console.html', function() {
-			// Set up event handlers
-			gdn.apiExplorer.init(consoleDiv);
-			sizeIt();
-		}).end().css({
+		).hide().css({
 			'position': 'relative',
 			'overflow': 'auto',
-			'background-color': '#eee'
-		});
+		}).insertAfter('#main');
+		// Set up the draggable resize header
 		dragme = $(
 			'<div class="dragbar"><p>API Console <a href="#">(close)</a></p></div>'
 		).insertBefore(consoleDiv).css({
@@ -71,8 +67,28 @@ gdn.consolePane = gdn.consolePane || {};
 			return false;
 		});
 		
+		// If they have an API Key cookie, show the console - otherwise
+		gdn.api_key = readApiKeyCookie();
+		if (gdn.api_key) {
+			consoleDiv.find('div').load(
+				'/explorer/_console.html', function() {
+				gdn.apiExplorer.init(consoleDiv);
+				sizeIt();
+			});
+		} else {
+			consoleDiv.find('div').load(
+				'/explorer/_console_enter_api_key.html', function() {
+				sizeIt();
+			});
+		}
+		
 		$(window).resize(sizeIt);
 	}
+	
+	function readApiKeyCookie() {
+		return $.cookies.get(api_key_cookie);
+	}
+	
 	function sizeIt() {
 		consoleDiv.height(console_height);
 		$('#main').height($(window).height()-console_height-dragHeight).css(
