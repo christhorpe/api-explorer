@@ -67,26 +67,36 @@ gdn.consolePane = gdn.consolePane || {};
 			return false;
 		});
 		
-		// If they have an API Key cookie, show the console - otherwise
-		gdn.api_key = readApiKeyCookie();
-		if (gdn.api_key) {
+		// If they have an API Key cookie, show the explorer
+		function showExplorer() {
 			consoleDiv.find('div').load(
 				'/explorer/_console.html', function() {
 				gdn.apiExplorer.init(consoleDiv);
 				sizeIt();
 			});
+		}
+		
+		gdn.api_key = $.cookies.get(api_key_cookie);
+		if (gdn.api_key) {
+			showExplorer();
 		} else {
 			consoleDiv.find('div').load(
 				'/explorer/_console_enter_api_key.html', function() {
+				consoleDiv.find('form').submit(function() {
+					var value = consoleDiv.find(':text').val();
+					if (!value) {
+						alert('Enter an API Key');
+						return false;
+					}
+					$.cookies.set(api_key_cookie, value);
+					showExplorer();
+					return false;
+				});
 				sizeIt();
 			});
 		}
 		
 		$(window).resize(sizeIt);
-	}
-	
-	function readApiKeyCookie() {
-		return $.cookies.get(api_key_cookie);
 	}
 	
 	function sizeIt() {
