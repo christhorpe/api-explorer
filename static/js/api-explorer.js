@@ -208,12 +208,20 @@ gdn.apiExplorer = gdn.apiExplorer || {};
 					showFilters(extractJsonFilters(domOrJson));
 				}
 				hookupLinks();
-			},
+			}, 
 			error: function(xhr, status) {
-				$('#results').html(
-					'An error occurred: "' + status + 
-					'". <a href="' + url + '">view API response</a>'
-				);
+				var msg;
+				if (/json/.exec(xhr.getResponseHeader('Content-Type'))) {
+					var json = eval('(' + xhr.responseText + ')');
+					msg = json['message'];
+					if (msg == 'Developer Inactive!') {
+						gdn.consolePane.askForApiKey();
+						return;
+					}
+				} else {
+					msg = xhr.responseText;
+				}
+				$('#results').text(msg);
 			}
 		});
 	}
