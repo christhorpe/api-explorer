@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-import os, urllib
+import os, httplib2
 import wsgiref.handlers
 
 from google.appengine.ext.webapp import template
@@ -70,9 +70,13 @@ def make_proxy_handler(prefix):
             url = prefix + path
             if self.request.query_string:
                 url += '?' + self.request.query_string
-            u = urllib.urlopen(url)
-            self.response.headers['Content-Type'] = u.headers['content-type']
-            self.response.out.write(u.read())
+            
+            #url = "http://gdn-test.api.mashery.com/content/search?api_key=blah&format=json"
+            
+            headers, response = httplib2.Http().request(url, 'GET')
+            for key, value in headers.items():
+                self.response.headers[key] = value
+            self.response.out.write(response)
     return ProxyHandler
 
 def main():
