@@ -18,14 +18,15 @@
 	<script type="text/javascript">
 	jQuery(gdn.consolePane.init);
 	jQuery(function($) {
-		$('a.example').click(function() {
+		$('a.example').live(function() {
+		    alert('Click: ' + this);
 			gdn.apiExplorer.show(this.url);
 			return false;
 		})
 	});
 	</script>
 </head>
-<body onload="init()">
+<body>
 <div id="main">
 	<script type="text/javascript" src="http://static.guim.co.uk/Guardian/thirdparty/gdn/hitbox.js"></script> 
 <iframe scrolling="no" frameborder="0" width="100%" height="220" name="top" src="http://static.guim.co.uk/Guardian/thirdparty/gdn/header.html"></iframe> 
