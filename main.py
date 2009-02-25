@@ -86,7 +86,7 @@ def main():
         ('(/content/(all-subjects).*)', RateLimitedHandler),
         ('(/content/(content)/.*)', RateLimitedHandler),
         ('(/content().*)', RateLimitedHandler),
-        ('(/gdn-api/.*)', make_proxy_handler('http://codresapi01.gudev.gnl:8300')),
+        ('(/gdn-api/.*)', make_proxy_handler('http://openapi.gucode.co.uk:8300')),
     ], debug=True)
     wsgiref.handlers.CGIHandler().run(application)
 
